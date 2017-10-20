@@ -1,0 +1,35 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: 处理审批
+metadata:
+  title: 处理审批 | Microsoft Flow
+  description: 了解如何在 Microsoft Flow 中管理文档和过程的审批。
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: administer-flows
+  nextTutorialTitle: Administer flows
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      了解如何在 Microsoft Flow 中管理文档和过程的审批。
+  - title: 创建审批申请
+    durationInMinutes: 4
+    content: |
+      > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
+
+      [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
+  - title: 处理审批请求
+    durationInMinutes: 7
+    content: |
+      > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
+
+      [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
+  - content: |
+      已完成 Microsoft Flow 引导式学习的“处理审批”部分。

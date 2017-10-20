@@ -1,0 +1,33 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: 管理流
+metadata:
+  title: 管理流 | Microsoft Flow
+  description: 了解如何使用环境和数据保护策略来管理数据源和流。
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      了解如何使用环境和数据保护策略来管理数据源和流。
+  - title: 使用环境来管理流
+    durationInMinutes: 8
+    content: |
+      > [!Video https://www.youtube.com/embed/wnScBLz7css?rel=0]
+
+      [!INCLUDE [learning-environments](../includes/learning-environments.md)]
+  - title: 使用数据丢失防护策略
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/vls4RPVP5xE?rel=0]
+
+      [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
+  - content: |
+      已完成 Microsoft Flow 引导式学习的“管理流”部分。

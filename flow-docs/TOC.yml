@@ -1,0 +1,138 @@
+- name: 入门
+  items:
+    - name: 入门
+      href: getting-started.md
+    - name: 注册
+      href: sign-up-sign-in.md
+    - name: 通过模板创建流
+      href: get-started-logic-template.md
+    - name: 从头开始创建流
+      href: get-started-logic-flow.md
+    - name: 创建团队流
+      href: create-team-flows.md
+    - name: 环境概述
+      href: environments-overview-maker.md
+    - name: 常见问题
+      href: frequently-asked-questions.md
+- name: 生成流
+  items:
+    - name: 添加操作
+      href: multi-step-logic-flow.md
+    - name: 添加条件
+      href: add-condition.md
+    - name: 按计划运行流
+      href: run-scheduled-tasks.md
+    - name: 使用电子邮件触发流
+      href: email-triggers.md
+    - name: 处理项的列表
+      href: apply-to-each.md
+    - name: 使用数据操作
+      href: data-operations.md
+    - name: 筛选和复制数据
+      href: odata-filters.md
+    - name: 使用 Dynamics 365 创建流
+      href: connection-dynamics365.md
+    - name: 将数据添加到 Common Data Service
+      href: common-data-model-intro.md
+    - name: 观看流
+      href: see-a-flow-run.md
+    - name: 发布模板
+      href: publish-a-template.md
+    - name: 排除流故障
+      href: fix-flow-failures.md
+- name: 创建审批流
+  items:
+    - name: 单个审批
+      href: modern-approvals.md
+    - name: 顺序审批
+      href: sequential-modern-approvals.md
+    - name: 并行审批
+      href: parallel-modern-approvals.md
+    - name: 集成审批
+      href: common-data-model-approve.md
+- name: 使用移动应用
+  items:
+    - name: 创建流
+      href: mobile-create-flow.md
+    - name: 创建按钮流
+      href: introduction-to-button-flows.md
+    - name: 创建使用触发器令牌的按钮流
+      href: introduction-to-button-trigger-tokens.md
+    - name: 创建带有用户输入的按钮流
+      href: button-flow-with-user-input-tokens.md
+    - name: 共享按钮
+      href: share-buttons.md
+    - name: 监视流活动
+      href: mobile-monitor-activity.md
+    - name: 管理流
+      href: mobile-manage-flows.md
+- name: 使用物理设备
+  items:
+    - name: 使用 Flic
+      href: flic-button-flows.md
+    - name: 使用 bttn
+      href: bttn-button-flows.md
+- name: 连接
+  items:
+    - name: 可用连接
+      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
+    - name: 管理连接
+      href: add-manage-connections.md
+    - name: 管理网关
+      href: gateway-manage.md
+    - name: 了解网关
+      href: gateway-reference.md
+- name: 开发：企业开发人员
+  items:
+    - name: 适用于企业开发人员的 Microsoft Flow
+      href: dev-enterprise-intro.md
+    - name: 注册和使用自定义连接器
+      href: register-custom-api.md
+    - name: 介绍 Postman 的自定义连接器
+      href: postman-collection.md
+    - name: 适用于自定义连接器的 OpenAPI 扩展
+      href: customapi-how-to-swagger.md
+    - name: 将 Azure Active Directory 与自定义连接器配合使用
+      href: customapi-azure-resource-manager-tutorial.md
+    - name: 为 Web API 生成自定义连接器
+      href: customapi-web-api-tutorial.md
+    - name: 使用 webhook 来触发流
+      href: customapi-webhooks.md
+- name: 开发：合作伙伴和 ISV
+  items:
+    - name: 适用于 Microsoft 合作伙伴和 ISV 的 Microsoft Flow
+      href: dev-isv-partner-intro.md
+    - name: API 连接器认证概述
+      href: api-connector-overview.md
+    - name: 开发用于认证的 API 连接器
+      href: api-connector-dev.md
+    - name: 提交用于认证的 API 连接器
+      href: api-connector-submission.md
+    - name: API 连接器认证常见问题解答
+      href: api-connector-faq.md
+    - name: 集成网站和其他技术
+      href: embed-flow-dev.md
+    - name: 让客户体验你的流
+      href: dev-appsource-test-drive.md
+- name: 管理
+  items:
+    - name: 组织中的流问答
+      href: organization-q-and-a.md
+    - name: 定价
+      href: billing-questions.md
+    - name: 管理中心简介
+      href: admin-center-introduction.md
+    - name: 管理环境
+      href: environments-overview-admin.md
+    - name: 设置防止数据丢失的策略
+      href: prevent-data-loss.md
+    - name: 数据组简介
+      href: introduction-to-data-groups.md
+- name: 参考
+  items:
+    - name: 区域概述
+      href: regions-overview.md
+    - name: 限制和配置
+      href: limits-and-config.md
+    - name: 发行说明
+      href: release-notes.md
