@@ -45,7 +45,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
             title: 了解按钮
-          - href: 'https://flow.microsoft.com/blog/automation-for-recruiters'
+          - href: 'https://aka.ms/flowoftheweek'
             html: <p>启迪：每周一流</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'

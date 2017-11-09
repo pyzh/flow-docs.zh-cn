@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/24/2017
 ms.author: deonhe
 ms.openlocfilehash: b4d11da19db97ce94df3e3d5237f6c90b3514269
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-parallel-approval-workflows-with-microsoft-flow"></a>使用 Microsoft Flow 创建并行审批工作流
 在并行审批工作流中，需要多个人员批准包括发票、采购订单、休假请求等在内的项。每个人员的审批与所有其他审批者无关。

@@ -30,6 +30,8 @@
       href: data-operations.md
     - name: 筛选和复制数据
       href: odata-filters.md
+    - name: 在条件中使用表达式
+      href: use-expressions-in-conditions.md
     - name: 使用 Dynamics 365 创建流
       href: connection-dynamics365.md
     - name: 将数据添加到 Common Data Service
