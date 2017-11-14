@@ -1,4 +1,4 @@
-1. 登录到“Microsoft Flow”[](https://flow.microsoft.com)，然后选择“我的流”选项卡。
+1. 登录到[Microsoft Flow](https://flow.microsoft.com)，然后选择“我的流”选项卡。
 2. 选择“从零开始创建”。
    
     ![空流](includes/media/email-triggers/email-triggers-create-blank.png)
