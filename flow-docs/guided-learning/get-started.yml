@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: 入门
+title: "入门"
 metadata:
-  title: 入门 | Microsoft Flow
-  description: 欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。
+  title: "入门 | Microsoft Flow"
+  description: "欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。"
   audience: Business User
   level: Beginner
   nextTutorialHref: build-flows
-  nextTutorialTitle: 生成流
+  nextTutorialTitle: "生成流"
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -16,26 +15,32 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
 items:
-  - durationInMinutes: 1
-    content: |
-      欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。
-  - title: 了解 Microsoft Flow 基础知识
-    durationInMinutes: 14
-    content: |
-      > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
+- durationInMinutes: 1
+  content: "欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。\n"
+  ms.openlocfilehash: 7b5bcbbe1a53feb773b940aae32b295cec5feba8
+  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 11/07/2017
+- title: "了解 Microsoft Flow 基础知识"
+  durationInMinutes: 14
+  content: >
+    > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
 
-      [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
-  - title: 通过模板创建流
-    durationInMinutes: 9
-    content: |
-      > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
 
-      [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
-  - title: 使用 Microsoft Flow 移动应用
-    durationInMinutes: 8
-    content: |
-      > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+    [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
+- title: "通过模板创建流"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
 
-      [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
-  - content: |
-      已完成 Microsoft Flow 引导式学习的“入门”部分。
+
+    [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
+- title: "使用 Microsoft Flow 移动应用"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+
+
+    [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
+- content: "已完成 Microsoft Flow 引导式学习的“入门”部分。\0"
