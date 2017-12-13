@@ -1,4 +1,4 @@
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "管理流"
 metadata:
   title: "管理流 | Microsoft Flow"
@@ -12,14 +12,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 10/04/2017
   ms.author: deonhe
-items:
-- durationInMinutes: 1
-  content: "了解如何使用环境和数据保护策略来管理数据源和流。\n"
-  ms.openlocfilehash: 52eb25087beb258481be25a560c84093d025021a
-  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.openlocfilehash: 234d245f42ef76864709890a3d27724a68834109
+  ms.sourcegitcommit: 9057be8df53d1c763fbf5ecd0d23cd1daf42c471
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/07/2017
+  ms.lasthandoff: 12/08/2017
+items:
+- durationInMinutes: 1
+  content: >
+    Learn about using environments and data protection policies to manage data sources and flows.
 - title: "使用环境来管理流"
   durationInMinutes: 8
   content: >
@@ -34,4 +35,4 @@ items:
 
 
     [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
-- content: "已完成 Microsoft Flow 引导式学习的“管理流”部分。\0"
+- content: "You've completed the **Administer flows** section of Microsoft Flow Guided Learning.\0"

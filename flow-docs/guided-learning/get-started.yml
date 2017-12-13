@@ -1,4 +1,4 @@
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "入门"
 metadata:
   title: "入门 | Microsoft Flow"
@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: build-flows
-  nextTutorialTitle: "生成流"
+  nextTutorialTitle: Build flows
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -14,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 10/04/2017
   ms.author: deonhe
-items:
-- durationInMinutes: 1
-  content: "欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。\n"
-  ms.openlocfilehash: 7b5bcbbe1a53feb773b940aae32b295cec5feba8
-  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.openlocfilehash: e0cc75bf5ca6683b5b5ca751908311b226a5065d
+  ms.sourcegitcommit: 9057be8df53d1c763fbf5ecd0d23cd1daf42c471
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/07/2017
+  ms.lasthandoff: 12/08/2017
+items:
+- durationInMinutes: 1
+  content: >
+    Welcome to Guided Learning for Microsoft Flow. This self-paced online course explains Microsoft Flow in a sequential way, so you can build your knowledge from the ground up.
 - title: "了解 Microsoft Flow 基础知识"
   durationInMinutes: 14
   content: >
@@ -43,4 +44,4 @@ items:
 
 
     [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
-- content: "已完成 Microsoft Flow 引导式学习的“入门”部分。\0"
+- content: "You've completed the **Get started** section of Microsoft Flow Guided Learning.\0"
