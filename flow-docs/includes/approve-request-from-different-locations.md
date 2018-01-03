@@ -7,33 +7,33 @@
    
      注意：如果使用的是安装了 Microsoft Flow 应用的移动设备，则会启动 Microsoft Flow 应用，否则会在浏览器中打开审批中心。
    
-    ![请求电子邮件](includes/media/modern-approvals/email-approval-request.png)
+    ![请求电子邮件](media/modern-approvals/email-approval-request.png)
 2. 输入注释，然后选择“确认”按钮。
    
-    ![输入注释](includes/media/modern-approvals/request-in-approval-center.png)
+    ![输入注释](media/modern-approvals/request-in-approval-center.png)
 
 ### <a name="from-the-approvals-center"></a>来自审批中心
 1. 登录到 [Microsoft Flow](https://flow.microsoft.com)。
    
-    ![登录](includes/media/modern-approvals/sign-in.png)
+    ![登录](media/modern-approvals/sign-in.png)
 2. 选择“审批”选项卡。
    
-    ![从空白创建](includes/media/modern-approvals/approvals-tab.png)
+    ![从空白创建](media/modern-approvals/approvals-tab.png)
 3. 在想要批准的请求上选择“批准”。
    
-    ![从空白创建](includes/media/modern-approvals/approvals-cards.png)
+    ![从空白创建](media/modern-approvals/approvals-cards.png)
 4. 添加备注，然后选择“确认”按钮。
    
-    ![添加备注，然后确认](includes/media/modern-approvals/approval-selection-card.png)
+    ![添加备注，然后确认](media/modern-approvals/approval-selection-card.png)
 
 ### <a name="from-the-microsoft-flow-app"></a>来自 Microsoft Flow 应用
 1. 在安装了 Microsoft Flow 应用的移动电话上，从请求审批电子邮件中选择“批准”。
 2. 在屏幕右上角选择“确认”。
    
-    ![选择“确认”](includes/media/modern-approvals/mobile-approval.png)
+    ![选择“确认”](media/modern-approvals/mobile-approval.png)
 3. 此时将显示“成功”页，指示已记录你的审批。
    
-    ![“成功”页](includes/media/modern-approvals/mobile-approval-confirmation.png)
+    ![“成功”页](media/modern-approvals/mobile-approval-confirmation.png)
 
 注意：Android、iOS 和 Windows Phone 上的屏幕可能略有不同，但所有设备上的功能是相同的。
 
