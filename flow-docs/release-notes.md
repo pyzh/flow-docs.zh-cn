@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2017
+ms.date: 01/01/2018
 ms.author: stepsic
-ms.openlocfilehash: 37bab7ccd54ecc7976a42df2e215daa19916fc85
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -28,11 +28,11 @@ ms.lasthandoff: 10/15/2017
    1. 确定故障。 这可以通过访问 Web 门户顶部的通知图标，或在移动应用中选择“活动”选项卡来开始。 应当可以在那里看到你的流，并且可以选择它。
    2. 现在可以查看流详细信息。 查找带红色感叹号图标的步骤，在那里会看到流的错误消息。
    3. 根据错误消息，应该能够**编辑**流并修复它。 [阅读有关如何修复常见流故障的详细信息](fix-flow-failures.md)。
-2. 如何使用高级条件或公式？
+2. 如何使用高级条件或表达式？
    
-   * 了解如何[添加条件](add-a-condition.md)。
+   * 了解如何[添加条件](add-condition.md)。
    * 若要在流中设置多种情况，请单击或点击“添加条件”，在现有条件中添加条件。
-   * 通过引用[逻辑应用中的函数](https://docs.microsoft.com/rest/api/logic/definition-language)创建高级公式。
+   * 通过引用[逻辑应用中的函数](https://docs.microsoft.com/rest/api/logic/definition-language)创建高级表达式。
 3. 授权是怎样与 Office 365 配合工作的？
    
    * 如果你是 Office 365 用户，则可通过适用于 Office 365 的 Microsoft Flow 计划获取完全访问权限。 有关详细信息，请参阅 [Microsoft Flow 定价计划](https://flow.microsoft.com/pricing/)。
@@ -40,11 +40,110 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="known-issues-and-resolutions"></a>常见问题和解决方法
 1. 不支持“我的站点”中非“自定义列表”类型的 SharePoint 列表。  若要解决此问题，请在标准 SharePoint 站点中创建自定义列表。
-2. 文档元数据不是从 SharePoint 文档库上的触发器中返回。
-3. 可以将流写入 SharePoint 列表中的分类字段。 建议使用简单的字符串字段，直至此问题得到更正。
-4. 向所选文件夹中的嵌套文件夹添加文件时，不会触发文件触发器。
+2. 可以将流写入 SharePoint 列表中的分类字段。 建议使用简单的字符串字段，直至此问题得到更正。
+3. 向所选文件夹中的嵌套文件夹添加文件时，不会触发文件触发器。
 
 ## <a name="whats-new"></a>新增功能
+
+### <a name="release-2017-12-20"></a>2017 年 12 月 20 日版
+
+Microsoft Flow Analytics 现已在所有 Microsoft Flow 区域中推出，这意味着，我们可以更深入地洞察环境中的流的运行状况。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/)有关此版本的问题。
+
+
+### <a name="release-2017-12-14"></a>2017 年 12 月 14 日版
+
+- **Outlook 连接器改进** - 可将电子邮件另存为“.eml”文件，自动响应日历邀请，以及根据电子邮件线索中的提醒触发流。
+- **连接改进** - Microsoft Flow 会记住你最近使用的连接，并会显示所有新添加的连接器。
+- **5 个新连接器** - 添加了 Azure 容器实例、Azure Kusto、Metatask、微软待办和 Plumsail 文档。
+- **HTTP 改进** - HTTP 操作现在支持区块编码。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/outlook-connector-more/)有关此版本的问题。
+
+### <a name="release-2017-12-05"></a>2017 年 12 月 5 日版
+
+Microsoft Flow 启动面板现已在所有区域推出。 在 SharePoint 列表或文档库中运行某个流时，可以使用此面板将值添加到该流。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/)有关此版本的问题。
+
+
+### <a name="release-2017-11-28"></a>2017 年 11 月 28 日版
+
+- **托管元数据** - 从 SharePoint 中使用托管元数据（也称为 分类）类型的列读取数据，以及向其中写入数据。
+- **追加到数组** - 使用新的“追加到数组变量”操作将项添加到数组末尾。
+- **Tago** - Tago 的新连接器，可将电子设备轻松连接到外部数据，以使用上下文分析促成更明智的决策。
+- **iPhone X** - 在 iPhone X 上使用全屏幕的新版 Microsoft Flow 应用，对图像上传的速度做了改进。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/managed-metadata-tago/)有关此版本的问题。
+
+### <a name="release-2017-11-09"></a>2017 年 11 月 9 日版
+
+- **OneDrive for Business 集成** - [OneDrive for Business 中现在提供了一个流按钮](https://flow.microsoft.com/blog/microsoft-flow-integration-in-one-drive-for-business-and-new-connector-actions/)，使用它可在选定的文件或文件夹中创建或触发流。
+- **计划程序触发器** - 创建新任务、向你分配了任务或者完成了某个任务时启动流。
+- **SharePoint 附件** - 处理 SharePoint 列表项中的附件：列出、下载、添加或删除附件。
+- **流管理连接器** - 创建可以自动管理环境中其他流的流（例如，自动将权限添加到流）。
+- **四个新连接器** - 添加了 Azure 自定义影像服务、D&B Optimizer、Enadoc 和 Derdak SIGNL4。 
+- **更多连接器操作** - 运行 SQL 查询、获取更快的电子邮件触发器、在 Azure AD 中将任何方法与 HTTP 配合使用，等等。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/planner-triggers-connector-improvements/)有关此版本的问题。
+
+### <a name="release-2017-11-02"></a>2017 年 11 月 2 日版
+
+- **审核日志记录** - Microsoft Flow 审核事件现已在所有租户的 Office 365 安全性和符合性中心推出。
+- **Flow 小组件修复** - 修复了 Flow 移动应用中导致按钮无法在小组件中加载的问题。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/security-and-compliance-center/)有关此版本的问题。
+
+### <a name="release-2017-10-19"></a>2017 年 10 月 19 日版
+
+- **嵌套了“应用到每项”操作** - 可以添加“应用到每项”操作，以及在其他“应用到每项”容器中进行筛选和选择。
+- **日期时间操作** - 添加了用于获取本地时间、时间相加、时间相减和设置时间格式的新操作。
+- **四个新连接器** - 添加了内容审查器、Docparser、Microsoft Kaizala 和 Pitney Bowes 数据验证。
+- **改进了连接体验** - 连接断开时，Flow 门户中会显示通知，此外还提供更丰富的连接详细信息。
+- **出差模板集合** - 面向[出差工作人员](https://flow.microsoft.com/collections/onthego/)的新模板集合。
+- **电子邮件地址按钮输入** - 当用户运行按钮时从用户收集电子邮件地址。
+- **文件按钮输入** - 当用户运行按钮时，从用户获取上传的文件，例如照片。
+- **首次运行和自动登录** - 改进了移动应用中的首次运行体验，包括自动登录。
+- **更快的 Microsoft Forms 触发器** - Forms 触发流的速度比以往要快得多（以前为每小时触发一次）。
+- **在不同的会话中保留按钮输入** - 在手机上触发的按钮会记住以前的输入。
+- **移动活动源** - 改进了活动源，包含更详细的运行摘要和故障排除详细信息。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/nested-apply-to-each/)有关此版本的问题。
+
+### <a name="release-2017-10-03"></a>2017 年 10 月 3 日版
+
+- **必须全部审批** - 要求将审批请求发送到多个人员，让收到该请求的每个人都审批它。
+- **新的 OneDrive for Business 操作** - 为 OneDrive for Business 中存储的文件生成 PDF，此外还添加了其他四个新操作。
+- **Apache Impala 连接器** - Apache Impala（孵化中）是适用于 Apache Hadoop 的开源本机分析数据库。
+- **添加流说明** - 提供流说明，以便在共享流时，同事可以看到流的功能摘要。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/all-must-approve-and-onedrive/)有关此版本的问题。
+
+### <a name="release-2017-09-25---q3-update-for-microsoft-flow"></a>2017 年 9 月 25 日版 - Microsoft Flow 第三季度的更新
+
+- **首版中更深入的 SharePoint 集成** - 新增了一个现成的“请求审阅”流，此外还添加了一个 Flow 面板，针对首版租户运行某个流时，可以使用该面板收集输入。
+- **Dynamics 365 for Customer Engagement** - Flow 现已与 Dynamics 365 for Customer Engagement 的 UI 相集成。
+- **Microsoft 信任中心** - Flow 已列入 Microsoft 信任中心，并显示已通过 HIPAA、ISO 和 SOC 等认证。
+- **使用情况分析** - 每个流已提供嵌入式 Power BI 仪表板和基本的使用情况分析。
+- **首版中的审核日志记录** - 将在首版租户的 Office 365 安全性和符合性中心记录所有流管理事件。
+- **六个新连接器** - 添加了 LinkedIn、Office 365 组、Skype for Business、Adobe Sign、Bizzy 和 Azure Log Analytics 数据集合。
+- **SQL 触发器** - 添加了新行或者更新了 SQL 表中的行时会运行流。
+- **本地自定义连接器** - 现在，自定义连接器可以使用本地数据网关连接到网络中的内部终结点。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/q3-2017-update/)有关此版本的问题。
+
+### <a name="release-2017-09-21"></a>2017 年 9 月 21 日版
+
+- **下载流历史记录** - 以 CSV 文件格式下载流的运行历史并在 Excel 中打开。
+- **高级重复计划** - 生成触发流的重复计划，例如，仅在工作日触发。
+- **IntelliSense** - 在表达式中键入内容时，IntelliSense 会提供有关参数的建议。
+- **四个新连接器** - 添加了 Azure AD HTTP 服务、Amazon Redshift、Azure 事件网格发布和 FlowForma 的连接器。
+- **共享链接** - 一个新操作，用于生成 OneDrive 文件或 Azure 存储 Blob 的可共享链接。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/download-history-recurrence/)有关此版本的问题。
+
+
 ### <a name="release-2017-08-25"></a>2017 年 8 月 25 日版
 * **SharePoint 的文档属性和其他信息** - [读取和设置 SharePoint 文档库属性](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/)，并使用其他字段，例如 SharePoint 项的链接。
 * **流集合** - 流集合是按角色或纵轴组织的一组模板集合。
@@ -406,8 +505,8 @@ Microsoft Flow 现在支持 DocuSign（用于电子签名和数字交易管理�
 * 自定义流以后，即可[将自己的模板发布](publish-a-template.md)到库中。
 * 可以查看每次检查和运行流的历史记录。
 * 保存流以后，直接执行触发器操作即可[立即观看运行中的流](see-a-flow-run.md)。
-* 成立了一个[新社区](http://go.microsoft.com/fwlink/?LinkID=787467)，方便用户讨论 Microsoft Flow 或[提交意见](https://go.microsoft.com/fwlink/?LinkID=787474)。
+* 成立了一个[新社区](https://go.microsoft.com/fwlink/?LinkID=787467)，方便用户讨论 Microsoft Flow 或[提交意见](https://go.microsoft.com/fwlink/?LinkID=787474)。
 
 ## <a name="next-steps"></a>后续步骤
-如果有任何问题未在这些发行说明或[常见问题](frequently-asked-questions.md)中讲到，请[加入社区](http://go.microsoft.com/fwlink/?LinkID=787467)提问问题，或[联系支持部门](http://go.microsoft.com/fwlink/?LinkID=787479)。
+如果有任何问题未在这些发行说明或[常见问题](frequently-asked-questions.md)中讲到，请[加入社区](https://go.microsoft.com/fwlink/?LinkID=787467)提问问题，或[联系支持部门](http://go.microsoft.com/fwlink/?LinkID=787479)。
 
