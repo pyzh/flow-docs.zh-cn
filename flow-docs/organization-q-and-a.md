@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
-ms.openlocfilehash: 6a05153864e37682ece83d8e5d90fa43a3ad01e1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
+ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="flow-in-your-organization-qa"></a>用户组织中的 Microsoft Flow 问题与解答
 本主题介绍组织中的用户如何使用 Microsoft Flow，以及用户如何控制 Microsoft Flow 服务。
@@ -101,12 +101,12 @@ Microsoft Flow 是完全公有的云服务，世界上的任何人都可以注�
 请注意，默认情况下这只会删除 Flow 磁贴。 用户仍可以选择以个人身份使用 Microsoft Flow。
 
 ### <a name="why-did-10000-licenses-for-microsoft-flow-show-up-in-my-office-365-tenant"></a>为何我的 Office 365 租户中出现了 10000 个 Microsoft Flow 许可证？
-世界上的任何人都可以试用 Microsoft Flow 计划 1 或 2 90 天，并且这些试用版许可证表示你租户中的新 Flow 用户的可用容量。 对于这些许可证，不会收取任何费用。 具体而言，你看到 Office 365 管理门户中出现容量为 10000 个的 Flow（试用版）许可证的可能原因有两个：
+任何人都可以试用 Microsoft Flow 计划 1 或 2 90 天，并且这些试用版许可证表示你租户中的新 Flow 用户的可用容量。 对于这些许可证，不会收取任何费用。 具体而言，你看到 Office 365 管理门户中出现容量为 10000 个的 Flow（试用版）许可证的可能原因有两个：
 
 1. 如果你的租户中至少有一个用户参与了从 2016 年 4 月到 2016 年 10 月的 Flow 公开预览，那么你将看到标为“Microsoft PowerApps 和逻辑流”的 10000 个许可证。
    
     ![](./media/organization-q-and-a/licenses2.png)
-2. 如果你的租户中至少有一个用户通过[用户如何注册 PowerApps](#how-do-users-sign-up-for-powerapps) 部分中概述的试用版注册“选项 1”注册了 Flow 计划 2 试用版，那么你将看到标为“Microsoft Power Apps 和 Flow”的 10000 个许可证。
+2. 如果你的租户中至少有一个用户通过[用户如何注册 PowerApps](#how-do-people-sign-up-for-flow) 部分中概述的试用版注册“选项 1”注册了 Flow 计划 2 试用版，那么你将看到标为“Microsoft Power Apps 和 Flow”的 10000 个许可证。
    
     ![](./media/organization-q-and-a/licenses1.png)
 
