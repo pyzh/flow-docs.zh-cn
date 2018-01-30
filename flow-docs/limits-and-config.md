@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/02/2017
 ms.author: stepsic
-ms.openlocfilehash: 27e12df6ae5754f921d37992fa6759d152fd1afc
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/18/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow 中的限制和配置
 本主题介绍流的当前限制和配置详细信息。
@@ -108,4 +108,16 @@ ms.lasthandoff: 10/15/2017
 | 美国（提前体验） |52.161.26.191、52.161.27.42、52.161.29.40、52.161.26.33、13.66.213.240、13.66.214.51、13.66.210.166、13.66.213.29 |
 
 例如，如果必须将 Azure SQL 数据库的 IP 地址加入允许列表，则应使用这些地址。
+
+下表列出了 Microsoft Flow 连接到的服务。 确保所有这些服务均未在网络上被屏蔽。
+
+域 | 协议 | 使用
+--------|  ---------| -----
+management.azure.com|https|对 Azure 资源管理器的访问权限。
+login.microsoft.com</br>login.windows.net</br>login.microsoftonline.com</br>secure.aadcdn.microsoftonline-p.com|https|对 Active Directory 身份验证库 (ADAL) 的访问权限。
+graph.microsoft.com </br>graph.windows.net</br>|https|对 Azure AD Graph API 的访问权限- 获取个人资料照片等用户信息。
+*.azure-apim.net|https|对连接器运行时的访问权限。
+*.flow.microsoft.com|https|对 Microsoft Flow 网站的访问权限。
+*.powerapps.com|https|对 PowerApps 网站的访问权限。
+psux.azureedge.net|https|对 Microsoft Flow CDN 的访问权限。
 
