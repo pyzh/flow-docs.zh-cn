@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 04/28/2017
 ms.author: sunayv
 ms.openlocfilehash: fe98999ea307367c7f3b032974fef9be6ca3f388
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="describe-a-custom-connector-with-postman"></a>介绍 Postman 的自定义连接器
 [Postman](https://www.getpostman.com/) 是一项工具，可以加快 API 开发速度，降低其难度。 本教程介绍如何创建 Postman Collection，以便用其在 Microsoft Flow 中轻松创建[自定义连接器](register-custom-api.md)。

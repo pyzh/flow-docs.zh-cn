@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 3709f8e9bb09171a8e31a8b64695d064f0b8146a
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="microsoft-flow-for-isvs-and-microsoft-partners"></a>适用于 ISV 和 Microsoft 合作伙伴的 Microsoft Flow
 作为 Microsoft 合作伙伴或 ISV，你可以对产品进行扩展，使之与客户的数据和业务流程相集成，从而促使客户采用你的产品。 生成可供客户使用的连接器，让客户能够通过 Microsoft Flow 连接到你的产品。 你可以生成应用并将其发布到 AppSource 供新客户试用，从而为自己的企业带来新的潜在客户。
