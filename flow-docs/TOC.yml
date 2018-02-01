@@ -84,34 +84,12 @@
       href: gateway-manage.md
     - name: 了解网关
       href: gateway-reference.md
-- name: 开发：企业开发人员
+- name: 为 Microsoft Flow 开发
   items:
-    - name: 适用于企业开发人员的 Microsoft Flow
+    - name: 适用于企业开发人员、合作伙伴和 ISV 的 Microsoft Flow
       href: dev-enterprise-intro.md
-    - name: 注册和使用自定义连接器
+    - name: 生成并认证自定义连接器
       href: register-custom-api.md
-    - name: 介绍 Postman 的自定义连接器
-      href: postman-collection.md
-    - name: 适用于自定义连接器的 OpenAPI 扩展
-      href: customapi-how-to-swagger.md
-    - name: 将 Azure Active Directory 与自定义连接器配合使用
-      href: customapi-azure-resource-manager-tutorial.md
-    - name: 为 Web API 生成自定义连接器
-      href: customapi-web-api-tutorial.md
-    - name: 使用 webhook 来触发流
-      href: customapi-webhooks.md
-- name: 开发：合作伙伴和 ISV
-  items:
-    - name: 适用于 Microsoft 合作伙伴和 ISV 的 Microsoft Flow
-      href: dev-isv-partner-intro.md
-    - name: API 连接器认证概述
-      href: api-connector-overview.md
-    - name: 开发用于认证的 API 连接器
-      href: api-connector-dev.md
-    - name: 提交用于认证的 API 连接器
-      href: api-connector-submission.md
-    - name: API 连接器认证常见问题解答
-      href: api-connector-faq.md
     - name: 集成网站和其他技术
       href: embed-flow-dev.md
     - name: 让客户体验你的流
