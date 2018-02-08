@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2017
+ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
-ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
+ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
+ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/05/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow 中的限制和配置
 本主题介绍流的当前限制和配置详细信息。
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/18/2018
 
 | 名称 | 限制 | 说明 |
 | --- | --- | --- |
-| 运行持续时间 |30 天 |提供的工作流包含未完成的步骤，例如审批。 30 天后，未完成的步骤将会超时。 |
+| 运行持续时间 |30 天 |提供的工作流包含未完成的步骤，例如审批。 30 天后，任何挂起步骤都会超时。将从审批中心删除超时审批。 如果有人尝试批准超时请求，则会收到错误消息。 |
 | 存储保留期 |30 天 |这是从运行开始时间算起。 |
 | 最小重复间隔 |1 分钟 | |
 | 最大重复间隔 |500 天 | |
@@ -107,7 +107,7 @@ ms.lasthandoff: 01/18/2018
 | 美国 |104.43.232.28、104.43.232.242、104.43.235.249、104.43.234.211、52.160.93.247、52.160.91.66、52.160.92.131、52.160.95.100、40.117.101.91、40.117.98.246、40.117.101.120、40.117.100.191 |
 | 美国（提前体验） |52.161.26.191、52.161.27.42、52.161.29.40、52.161.26.33、13.66.213.240、13.66.214.51、13.66.210.166、13.66.213.29 |
 
-例如，如果必须将 Azure SQL 数据库的 IP 地址加入允许列表，则应使用这些地址。
+例如，如果必须为 Azure SQL 数据库的 IP 地址授权，则应使用这些地址。
 
 下表列出了 Microsoft Flow 连接到的服务。 确保所有这些服务均未在网络上被屏蔽。
 
