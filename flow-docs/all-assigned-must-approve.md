@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/22/2017
 ms.author: deonhe
-ms.openlocfilehash: 0e0309793cfcb45ca7ee72910803a4abc27d2f26
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 6b152f0ec85558889970db2784fe8c2dcbf526ed
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>创建一个必需所有人批准的审批流
 本演练介绍如何创建一个审批工作流，该工作流必需所有人（所有分配的审批者）都同意才能使验证得到批准，但任何审批者都可以拒绝整个申请。
@@ -28,12 +28,12 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="prerequisites"></a>先决条件
 * 对 [Microsoft Flow](https://flow.microsoft.com)、Office 365 Outlook 和 Office 365 用户的访问权限。
-* SharePoint Online [列表](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)。
+* SharePoint Online [列表](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)。
   
     本演练假设已创建了用于申请休假的 SharePoint Online 列表。 有关详细介绍 SharePoint 列表可能呈现的状态的详细示例，请参阅[并行审批](parallel-modern-approvals.md)演练。
 * 熟悉创建流的基础知识。
   
-    可以查看如何添加[操作、触发器](multi-step-logic-flow.md#add-another-action)和[条件](add-a-condition.md)。 以下步骤假设用户了解如何执行这些操作。
+    可以查看如何添加[操作、触发器](multi-step-logic-flow.md#add-another-action)和[条件](add-condition.md)。 以下步骤假设用户了解如何执行这些操作。
 
 > [!NOTE]
 > 虽然我们在本演练中使用 SharePoint Online 和 Office 365 Outlook，但也可以使用其他服务，例如 Zendesk、Salesforce、Gmail 或 Microsoft Flow 支持的超过 [150 款服务](https://flow.microsoft.com/connectors/)中的任意一款。

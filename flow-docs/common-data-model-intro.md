@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: a63ccacb1e6d9bd63d5a11a8db6ea01a9fc37333
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>创建使用通用数据服务的流
 创建使用[通用数据服务](https://powerapps.microsoft.com/tutorials/data-platform-intro/)的流，通过统一的视图查看业务数据，提高运营效率。 将这个安全的业务数据库部署到组织中，该数据库包含各种格式正确的标准业务实体（例如“销售”、“购买”、“客户服务”和“工作效率”）。 将组织数据存储在一个或多个[自定义实体](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)中，后者相对于外部数据源（例如 Microsoft Excel 和 Salesforce）具有多项优势。
@@ -37,7 +37,7 @@ ms.lasthandoff: 10/15/2017
 
 * 注册到 [Microsoft Flow](https://flow.microsoft.com) 和 [PowerApps](https://web.powerapps.com)。
   
-    如果出现问题，请确保 [Microsoft Flow](sign-up-sign-in.md) 和 [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) 支持所用的帐户类型，且组织没有禁用注册。
+    如果出现问题，请确保 [Microsoft Flow](sign-up-sign-in.md) 和 [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) 支持所用的帐户类型，且组织没有禁用注册。
 * 如果从未用过通用数据服务，请打开 [powerapps.com](https://web.powerapps.com/#/entities) 的“实体”选项卡，然后单击或点击“创建数据库”。
 
 ## <a name="sign-in-to-your-environment"></a>登录环境

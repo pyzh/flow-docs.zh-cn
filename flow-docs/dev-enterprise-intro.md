@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: mblythe
-ms.openlocfilehash: 3e6a6e0e369f8d89dcf834b4225dfd5aa4758dd7
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: d8886f0828ca3b8ccf7ae1ce9c46f6e9b8fcc766
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>适用于企业开发人员、ISV 和合作伙伴的 Microsoft Flow
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 02/05/2018
 
 ### <a name="1-connecting-to-your-apis-or-enabling-customers-to-connect-to-your-apis"></a>1.连接到 API 或允许客户连接到 API
 
-通常，ISV 拥有专有数据且希望客户通过其流访问这些数据。 通过自定义连接器即可公开任何数据的访问权限。 [了解详情](https://docs.microsoft.com/en-us/connectors/custom-connectors/)
+通常，ISV 拥有专有数据且希望客户通过其流访问这些数据。 通过自定义连接器即可公开任何数据的访问权限。 [了解详情](https://docs.microsoft.com/connectors/custom-connectors/)
 
 创建连接器后，可通过两种方式向客户提供连接器：
 - 可通过 REST API 或 PowerShell 将连接器部署到客户的租户中。
@@ -77,7 +77,7 @@ ms.lasthandoff: 02/05/2018
 
 如果客户已经拥有 Office 365 或 Dynamics 365，且这些许可证与用户登录 Azure AD 的标识相关联，则无需另外授权。 但是，如果客户未使用 Office 365 或 Dynamics 365，那么你应代表他们获取 Microsoft Flow 的使用权，这样他们才能获得许可，从而在应用程序中利用这些嵌入的组件。
 
-我们提供 [Microsoft 云解决方案提供商](https://partner.microsoft.com/en-US/cloud-solution-provider)计划，可代表客户获得许可证。 Microsoft Flow 提供两种[定价计划](https://flow.microsoft.com/pricing/)，请查看计划和功能详细信息。
+我们提供 [Microsoft 云解决方案提供商](https://partner.microsoft.com/cloud-solution-provider)计划，可代表客户获得许可证。 Microsoft Flow 提供两种[定价计划](https://flow.microsoft.com/pricing/)，请查看计划和功能详细信息。
 
 ### <a name="7-list-on-appsource"></a>7.在 AppSource 上列出
 

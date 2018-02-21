@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: 41c416557dbb491432448c33369767f9705278c9
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>使用 Microsoft Flow 和 Microsoft 通用数据服务生成审批循环
 用户可以使用通用数据服务生成流，将信息存储在独立于流的数据库中。 此方面的最佳示例是审批。 如果将审批状态存储在实体中，则可在其基础上使用流。
@@ -34,7 +34,7 @@ ms.lasthandoff: 10/15/2017
 
 **先决条件**
 
-* 注册到 [Microsoft Flow](sign-up-sign-in.md) 和 [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/)。
+* 注册到 [Microsoft Flow](sign-up-sign-in.md) 和 [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/)。
 * 根据 [Manage your connections](https://powerapps.microsoft.com/tutorials/add-manage-connections/)（管理连接）中的说明，创建到 Dropbox 和 Office 365 Outlook 的连接。
 
 ## <a name="build-the-entity"></a>生成实体

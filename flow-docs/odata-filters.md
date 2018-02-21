@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 37b53fa50afdc6865c5ba905957405f0e4b67520
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>使用 Microsoft Flow 筛选和复制数据
 本演练介绍如何创建一个流，用于监视源中新建或更改的项，然后将这些更改复制到目标。 如果用户在一个位置输入数据，但团队需要在另一个位置或以另一种格式获得该数据，则可以创建此类流。
 
-尽管本演练将数据从 Microsoft SharePoint [列表](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)（源）复制到 [Azure SQL 数据库](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)表（目标），但在 Microsoft Flow 支持的超过 [150 种服务](https://flow.microsoft.com/connectors/)之间均可以复制数据。
+尽管本演练将数据从 Microsoft SharePoint [列表](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)（源）复制到 [Azure SQL 数据库](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)表（目标），但在 Microsoft Flow 支持的超过 [150 种服务](https://flow.microsoft.com/connectors/)之间均可以复制数据。
 
 > [!IMPORTANT]
 > 在目标中所做的更改不会复制到源，因为不支持双向同步。 如果尝试设置双向同步，会创建一个无限循环，在源和目标之间无休止地发送更改。
@@ -35,7 +35,7 @@ ms.lasthandoff: 10/15/2017
 * 对数据源和目标的访问权限。 本演练不包括创建源和目标的步骤。
 * 有权访问 [Microsoft Flow](https://flow.microsoft.com)。
 * 大致了解如何存储数据。
-* 熟悉创建流的基础知识。 可以查看如何添加[操作、触发器](multi-step-logic-flow.md#add-another-action)和[条件](add-a-condition.md)。 以下步骤假设用户了解如何执行这些操作。
+* 熟悉创建流的基础知识。 可以查看如何添加[操作、触发器](multi-step-logic-flow.md#add-another-action)和[条件](add-condition.md)。 以下步骤假设用户了解如何执行这些操作。
 
 > [!TIP]
 > 并非源和目标中的每个列名称都需要匹配，但必须在插入或更新项时为所有*必需的*列提供数据。 Microsoft Flow 标识所需的字段。
