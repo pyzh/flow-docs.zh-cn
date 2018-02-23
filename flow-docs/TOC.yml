@@ -1,6 +1,6 @@
 - name: Get started
   items:
-    - name: 入门
+    - name: Get started
       href: getting-started.md
     - name: 注册
       href: sign-up-sign-in.md
@@ -50,6 +50,8 @@
       href: sequential-modern-approvals.md
     - name: 并行审批
       href: parallel-modern-approvals.md
+    - name: 每个人都必须批准
+      href: all-assigned-must-approve.md
     - name: 集成审批
       href: common-data-model-approve.md
 - name: 使用移动应用
