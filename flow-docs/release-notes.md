@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/01/2018
+ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
+ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/12/2018
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -44,6 +44,30 @@ ms.lasthandoff: 01/03/2018
 3. 向所选文件夹中的嵌套文件夹添加文件时，不会触发文件触发器。
 
 ## <a name="whats-new"></a>新增功能
+
+### <a name="release-2018-02-09"></a>2018 年 2 月 9 日版
+
+- **网关高可用性** - 创建高度可用的本地数据网关群集，以便在单个计算机停机时保持连接。
+- **改进的“应用到每个”** - 使用 Flow 计划 1 或 Flow 计划 2 可以在单次运行中处理多达 100,000 个项目，并在“应用到每个”循环中并行处理 50 个操作。 
+
+[阅读更多并询问](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each/)有关此版本的问题。
+
+### <a name="release-2018-01-29"></a>2018 年 1 月 29 日版
+
+- **Microsoft Teams 内部流** - 通过 Teams，可以创建和管理流、查看你接收和发送的批准，以及直接在 Teams 桌面应用内或在 teams.microsoft.com 上启动流 - [在此处了解详细信息](https://flow.microsoft.com/blog/microsoft-flow-in-microsoft-teams/)。
+- **共享编辑通知** - 每当有同事更改你所拥有的流时，你将会收到电子邮件通知，告知你谁更改了哪个流。
+- **新表达式** - 添加了两组新的表达式：一组用于分析 URL，另一组用于与 JSON 对象结合使用。
+- **三个新连接器** - 本周提供两个新的 Plumsail 连接器：Plumsail SP 和 Plumsail 窗体以及一个到 kintone 的新连接器。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/shared-notifications-and-expressions/)有关此版本的问题。
+
+### <a name="release-2018-01-17"></a>2018 年 1 月 17 日版
+
+- **Office 365 配置文件信息** - 我们已向 Office 365 Users 连接器添加了可与用户配置文件和照片结合使用的新操作。
+- **追加到字符串变量** - 可以添加到循环内的字符串来构建表或其他列表。
+- **Infobip 连接器** - Infobip 是一项服务，可实现企业级通信，包括语音呼叫，以及在入站 SMS 上触发。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/o365-profile-infobip/)有关此版本的问题。
 
 ### <a name="release-2017-12-20"></a>2017 年 12 月 20 日版
 

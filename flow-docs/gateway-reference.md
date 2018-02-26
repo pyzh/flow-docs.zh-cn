@@ -10,16 +10,16 @@ editor:
 tags: 
 ms.service: flow
 ms.devlang: na
-ms.topic: article
+ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 06b0198ffa75a3de673460dc13037205f58ad515
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
+ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>了解适用于 Microsoft Flow 的本地数据网关
 将本地数据网关与 Microsoft Flow 配合使用，以便安全地连接到本地数据源，例如 Microsoft SQL Server。
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/15/2017
 ### <a name="prerequisites"></a>先决条件
 最低：
 
-* [.NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653)
+* [.NET Framework 4.6](https://www.microsoft.com/download/details.aspx?id=48130)
 * 64 位版本的 Windows 7 或 Windows Server 2008 R2（或更高版本）
 
 建议：
@@ -49,7 +49,7 @@ ms.lasthandoff: 10/15/2017
 > 
 > 
 
-1. [下载安装程序](http://go.microsoft.com/fwlink/?LinkID=820931)并运行。
+1. [下载安装程序](https://go.microsoft.com/fwlink/?LinkID=820931)并运行。
    
     ![运行安装程序](./media/gateway-reference/run-installer.png)
 2. 在安装向导的第一个屏幕上选择“下一步”，确认关于在笔记本电脑上安装网关的提醒。
@@ -81,18 +81,25 @@ ms.lasthandoff: 10/15/2017
 网关以 Windows 服务的形式运行，与任何其他 Windows 服务一样，可以通过多种方式启动和停止。 例如，可以使用提升的权限，在运行网关的计算机上打开命令提示符，然后运行下述任一命令：
 
 * 若要停止该服务，请运行以下命令：
-  
-    ````net stop PBIEgwService````
+
+```batchfile
+    net stop PBIEgwService
+```
+
 * 若要启动该服务，请运行以下命令：
-  
-    ````net start PBIEgwService````
+
+```batchfile
+    net start PBIEgwService
+```
 
 ## <a name="configure-a-firewall-or-proxy"></a>配置防火墙或代理
 若要了解如何为网关提供代理信息，请参阅 [Configure proxy settings](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/)（配置代理服务器设置）。
 
 可以在 PowerShell 提示符下运行以下命令，验证防火墙或代理是否会阻止连接。 此命令测试与 Azure 服务总线的连接。 此命令只测试网络连接，不影响云服务器服务或网关。 它用于确定计算机是否已连接到 Internet。
 
-````Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350````
+```powershell
+Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+```
 
 结果应类似于下面的输出。 如果 **TcpTestSucceeded** 不为 true ，则可能已被防火墙阻止。
 
@@ -157,7 +164,7 @@ ms.lasthandoff: 10/15/2017
 **答：**否。 网关使用出站连接连接到 Azure 服务总线。
 
 **问：**如果阻止出站连接，该怎么办？ 需要如何才能打开？
-**答：**查看网关使用的[端口](gateway-reference.md#ports)和主机。
+**答：**查看网关使用的[端口](gateway-reference.md#configure-ports)和主机。
 
 **问：**网关是否必须与数据源安装在同一计算机上？
 **答：**否。 网关将使用提供的连接信息连接到数据源。 在这个意义上，可将网关视为客户端应用程序。 它只需能够连接到提供的服务器名称。
