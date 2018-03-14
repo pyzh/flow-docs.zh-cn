@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: fe05ce536b61887f52ea4e297457c71ead3e8bfd
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
+ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>通过 Microsoft Flow 创建和测试审批工作流
 使用 Microsoft Flow 可以跨多个服务管理文档或流程的审批，这些服务包括：SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk 或 WordPress。
 
 若要创建审批工作流，请向任意流添加“审批 - 启动审批”操作。 添加此操作后，即可通过流来管理文档或流程的审批。 例如，可以创建文档审批流来审批发票、工作订单或销售报价单。 还可以创建流程审批流来审批休假请求、加班或旅行计划。
 
-审批者管理来自其电子邮件收件箱、Microsoft Flow 网站上的[审批中心](https://flow.microsoft.com/manage/approvals/received/)或 Microsoft Flow 应用的请求。
+审批者可以回复来自其电子邮件收件箱、Microsoft Flow 网站上的[审批中心](https://flow.microsoft.com/manage/approvals/received/)或 Microsoft Flow 应用的请求。
 
 ## <a name="create-an-approval-flow"></a>创建审批流
 下面是我们将创建和测试的流的概览：
@@ -129,4 +129,3 @@ ms.lasthandoff: 10/15/2017
 * 创建[顺序审批流](sequential-modern-approvals.md)。
 * 创建[并行审批流](parallel-modern-approvals.md)。
 * 安装适用于 [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios) 或 [Windows Phone](https://aka.ms/flowmobilewindows) 的 Microsoft Flow 移动应用。
-

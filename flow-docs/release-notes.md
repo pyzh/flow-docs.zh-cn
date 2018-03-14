@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
-ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
+ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
+ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -121,7 +121,7 @@ Microsoft Flow 启动面板现已在所有区域推出。 在 SharePoint 列表�
 
 ### <a name="release-2017-10-19"></a>2017 年 10 月 19 日版
 
-- **嵌套了“应用到每项”操作** - 可以添加“应用到每项”操作，以及在其他“应用到每项”容器中进行筛选和选择。
+- **嵌套了“应用到每项”操作** - 可以添加“应用到每项”操作，以及在其他“应用到每项”容器操作中进行筛选和选择。
 - **日期时间操作** - 添加了用于获取本地时间、时间相加、时间相减和设置时间格式的新操作。
 - **四个新连接器** - 添加了内容审查器、Docparser、Microsoft Kaizala 和 Pitney Bowes 数据验证。
 - **改进了连接体验** - 连接断开时，Flow 门户中会显示通知，此外还提供更丰富的连接详细信息。
