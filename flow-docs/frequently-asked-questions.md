@@ -1,13 +1,13 @@
 ---
-title: "常见问题 | Microsoft Docs"
-description: "有关 Microsoft Flow 的几个常见问题的解答"
-services: 
+title: 常见问题 | Microsoft Docs
+description: 有关 Microsoft Flow 的几个常见问题的解答
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 5b8deda5f22bcc1fa7cfa37a0d4244f26c2004a4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
+ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="frequently-asked-questions"></a>常见问题
 ## <a name="audience-and-strategy"></a>受众和策略
@@ -99,10 +99,21 @@ Microsoft Flow 最多可以有 50 个流。 如需更多流，可提出相关请
 * [博客](https://flow.microsoft.com)
 * [YouTube 频道](https://youtube.com/playlist?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF)
 * [主题](getting-started.md)
-* [社区](http://powerusers.microsoft.com)
+* [社区](https://powerusers.microsoft.com)
 
 ### <a name="what-operating-systems-does-the-mobile-app-for-microsoft-flow-support"></a>适用于 Microsoft Flow 的移动应用支持哪些操作系统？
 Microsoft Flow 移动应用可以在 [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios) 或 [Windows Phone](https://aka.ms/flowmobilewindows) 上使用。
+
+### <a name="can-flows-be-turned-off-or-disabled"></a>可以关闭流或者禁用流吗？
+
+可以，每个流都有一个 on/off 开关，你可以从正在处理的请求中停止流。
+
+请查看下表，理解流在重新打开时的响应方式。
+
+触发器类型|说明
+-------|--------
+轮询，例如重复触发器|再次打开流时，会处理所有未处理/挂起的事件。
+Webhook|再次打开流时，只处理在打开流以后生成的新事件。
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Microsoft Flow 支持哪些区域和语言？
 Microsoft Flow 支持 42 种语言，已在[六个区域](regions-overview.md)发布。
