@@ -1,12 +1,12 @@
 ### YamlMime:Tutorial
-title: "入门"
+title: 入门
 metadata:
-  title: "入门 | Microsoft Flow"
-  description: "欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。"
+  title: 入门 | Microsoft Flow
+  description: 欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。
   audience: Business User
   level: Beginner
   nextTutorialHref: build-flows
-  nextTutorialTitle: "生成流"
+  nextTutorialTitle: 生成流
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -14,33 +14,34 @@ metadata:
   ms.topic: get-started-article
   ms.date: 10/04/2017
   ms.author: deonhe
-  ms.openlocfilehash: e0cc75bf5ca6683b5b5ca751908311b226a5065d
-  ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+  ms.openlocfilehash: 3f5cc6ac324e5e389b05d84c10cc45891ea518d2
+  ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 03/28/2018
 items:
 - durationInMinutes: 1
-  content: "欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。\n"
-- title: "了解 Microsoft Flow 基础知识"
+  content: >
+    欢迎使用 Microsoft Flow 的引导式学习。 此在线课程允许你自己控制进度，它循序渐进地介绍 Microsoft Flow，以便你可以从头开始掌握知识。
+- title: 了解 Microsoft Flow 基础知识
   durationInMinutes: 14
   content: >
     > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
 
 
     [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
-- title: "通过模板创建流"
+- title: 通过模板创建流
   durationInMinutes: 9
   content: >
-    > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
+    > [!视频 https://www.youtube.com/watch?v=NeCu5VnL4s0
 
 
     [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
-- title: "使用 Microsoft Flow 移动应用"
+- title: 使用 Microsoft Flow 移动应用
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
 
 
     [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
-- content: "已完成 Microsoft Flow 引导式学习的“入门”部分。\0"
+- content: 已完成 Microsoft Flow 引导式学习的“入门”部分。

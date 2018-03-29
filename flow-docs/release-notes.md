@@ -1,13 +1,13 @@
 ---
-title: "发行说明 | Microsoft Docs"
-description: "常见问题以及 Microsoft Flow 版本的新增功能"
-services: 
+title: 发行说明 | Microsoft Docs
+description: 常见问题以及 Microsoft Flow 版本的新增功能
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
-ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
+ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
+ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -391,7 +391,7 @@ Microsoft Flow 现在支持 DocuSign（用于电子签名和数字交易管理�
 ### <a name="release-2016-11-23"></a>2016 年 11 月 23 日版
 * **Flow 中的 Power BI 警报支持** -通过从 Power BI 数据警报触发流，来实现根据信息自动执行操作。
 * **移动应用程序改进** - 除了基于模板进行创建的现有体验之外，还添加了从头开始创建流的功能。 我们还提高了查看流运行时的性能。
-* **八项新服务** - 现在可以连接到 Azure 资源管理器、Azure Queues、Chatter、Disqus、Azure DocumentDB、认知服务人脸 API、HipChat 和 Wordpress。
+* **八个新服务** - 现在可连接到 Azure 资源管理器、Azure 队列、Chatter、Disqus、Azure Cosmos DB、认知服务人脸 API、HipChat 以及 Wordpress。
 
 [阅读更多并询问](https://flow.microsoft.com/blog/power-bi-and-eight-other-services/)有关此版本的问题。
 
