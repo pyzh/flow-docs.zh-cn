@@ -1,6 +1,6 @@
 ---
 layout: HubPage
-hide_bc: ''
+hide_bc: true
 title: Microsoft Flow 文档 | Microsoft Docs
 description: Microsoft Flow 是一种可用于在用户最喜欢的应用和服务之间创建自动化工作流的服务，其功能包括同步文件、获取通知、收集数据等。
 keywords:
