@@ -1,13 +1,13 @@
 ---
-title: "了解本地数据网关 | Microsoft Docs"
-description: "适用于本地数据网关的参考、安装和故障排除信息"
-services: 
+title: 了解本地数据网关 | Microsoft Docs
+description: 适用于本地数据网关的参考、安装和故障排除信息
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -114,7 +114,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 如果需要详细了解所有情况，可将 **ComputerName** 值和 **Port** 值替换为本主题后面“配置端口”下列出的那些值。
 
-防火墙可能还会阻止 Azure 服务总线发出的到 Azure 数据中心的连接。 如果是这种情况，则需将所在区域的这些数据中心的所有 [IP 地址](https://www.microsoft.com/download/details.aspx?id=41653)列入白名单（即取消阻止）。
+防火墙可能还会阻止 Azure 服务总线发出的到 Azure 数据中心的连接。 如果是这种情况，则需将所在区域的这些数据中心的所有 [IP 地址](https://www.microsoft.com/download/details.aspx?id=41653)列入允许列表即取消阻止）。
 
 ## <a name="configure-ports"></a>配置端口
 网关可创建到 Azure 服务总线的出站连接。 网关使用以下出站端口进行通信：TCP 443（默认）、5671、5672、9350 至 9354。 网关不需要入站端口。
@@ -132,7 +132,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 | login.microsoftonline.com |443 |HTTPS |
 | *.msftncsi.com |443 |无法访问网关时，用于测试 Internet 连接。 |
 
-如果需要将 IP 地址而不是域列入白名单，可下载并使用 [Microsoft Azure 数据中心 IP 范围列表](https://www.microsoft.com/download/details.aspx?id=41653)。 在某些情况下，Azure 服务总线连接将使用 IP 地址而不是完全限定域名来进行。
+如果需要将 IP 地址而不是域列入允许列表，可下载并使用 [Microsoft Azure 数据中心 IP 范围列表](https://www.microsoft.com/download/details.aspx?id=41653)。 在某些情况下，Azure 服务总线连接将使用 IP 地址而不是完全限定域名来进行。
 
 ## <a name="sign-in-account"></a>登录帐户
 用户将使用工作或学校帐户登录。 这是组织帐户。 如果已注册 Office 365 产品/服务，但未提供工作电子邮件，帐户可能会如下所示：nancy@contoso.onmicrosoft.com。用户在云服务中的帐户存储于 Azure Active Directory (AAD) 中的租户内。 在大多数情况下，AAD 帐户的 UPN 将与电子邮件地址匹配。
