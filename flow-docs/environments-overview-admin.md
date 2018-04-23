@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: sunayv
-ms.openlocfilehash: 631c53aaa19e137e1df82f8070192f6f4271339e
-ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
+ms.openlocfilehash: cf1a618b9e0ed76147eb4ede2aed42111c66b4a5
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-environments-within-microsoft-flow"></a>使用 Microsoft Flow 中的环境
 
@@ -79,18 +79,20 @@ ms.lasthandoff: 03/28/2018
 ## <a name="create-an-environment"></a>创建环境
 
 1. 在“[Microsoft Flow 管理员中心](https://admin.flow.microsoft.com)”，选择“环境”。 此时，将看到全部现有环境：![环境](./media/environments-overview-admin/environments-list.png)
-1. 选择“新建环境”，再输入必填信息：
+2. 选择“新建环境”，再输入必填信息：
 
-   | 属性 | 说明 |
-   | --- | --- |
-   | 环境名称 |输入环境的名称，例如 `Human Resources` 或 `Europe flows`。 |
-   | 区域 |选择托管环境的位置。 为了获得最佳性能，请使用最靠近用户的区域。|
-   |环境类型 | 根据许可证选择环境类型：“生产”或“试用”。| 
+
+   |     属性     |                                                 说明                                                 |
+   |------------------|-------------------------------------------------------------------------------------------------------------|
+   | 环境名称 |              输入环境的名称，例如 `Human Resources` 或 `Europe flows`。              |
+   |      区域      | 选择托管环境的位置。 为了获得最佳性能，请使用最靠近用户的区域。 |
+   | 环境类型 |                  根据许可证选择环境类型：“生产”或“试用”。                   |
+
      ![环境设置](./media/environments-overview-admin/new-environment-dialog.png)
-1. 单击“创建环境”。
-1. 现在，可以根据需要单击“创建数据库”或“跳过”。
-1. 如果选择“创建数据库”，将看到为数据库设置“货币”和“语言”的提示。 此外，还可以选择部署示例应用和数据。
-   
+3. 单击“创建环境”。
+4. 现在，可以根据需要单击“创建数据库”或“跳过”。
+5. 如果选择“创建数据库”，将看到为数据库设置“货币”和“语言”的提示。 此外，还可以选择部署示例应用和数据。
+
    ![数据库配置设置](./media/environments-overview-admin/create-database-dialog2.png)
 
 

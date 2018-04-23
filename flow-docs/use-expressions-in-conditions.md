@@ -1,23 +1,23 @@
 ---
-title: "将表达式与条件配合使用。 | Microsoft Docs"
-description: "使用高级表达式，例如 "
-"\"and\"\",": 
-"\"\"or\"\",": 
-"\"\"empty\"\",": 
-"\"\"less\"\"": 
-and: 
-"\"\"greater\"\"": 
-with: 
-microsoft: 
-flow: 
-conditions.": 
-services: 
+title: 将表达式与条件配合使用。 | Microsoft Docs
+description: '使用高级表达式，例如 '
+"\"and\"\",": ''
+"\"\"or\"\",": ''
+"\"\"empty\"\",": ''
+"\"\"less\"\"": ''
+and: ''
+"\"\"greater\"\"": ''
+with: ''
+microsoft: ''
+flow: ''
+conditions.": ''
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -25,11 +25,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: a833abf7cb43e6d8a1c67b0f4160c90a4b24545a
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>在条件中使用表达式来查看多个值
 本演练将介绍如何使用表达式和条件在高级模式下比较多个值。
@@ -74,71 +74,71 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="start-with-a-blank-flow"></a>从空白流开始
 1. 登录到 [Microsoft Flow](https://flow.microsoft.com)。
-   
+
     ![登录](includes/media/modern-approvals/sign-in.png)
 2. 选择“我的流”选项卡。
-   
+
     ![选择我的流](includes/media/modern-approvals/select-my-flows.png)
 3. 选择“从零开始创建”。
-   
+
     ![从空白创建](includes/media/modern-approvals/blank-template.png)
 
 ### <a name="add-a-trigger-to-your-flow"></a>向流添加触发器
 1. 搜索“计划”，然后选择“计划 - 重复周期”触发器
-   
+
     ![计划触发器](includes/media/schedule-trigger/schedule-trigger.png)
 2. 将计划设置为每天运行一次。
-   
+
     ![设置计划](includes/media/schedule-trigger/set-schedule.png)
 
 ### <a name="select-the-spreadsheet-and-get-all-rows"></a>选择电子表格，获取所有行
 1. 选择“新建步骤” > “添加操作”。
-   
+
     ![新建步骤](includes/media/new-step/action.png)
 2. 搜索“行”，然后选择“Excel - 获取行”。
-   
+
     注意：请选择对应于要使用的电子表格的“获取行”操作。 例如，如果要使用 Google Sheets，则选择“Google Sheets - 获取行”。
-   
+
     ![获取行](includes/media/new-step/get-excel-rows.png)
 3. 选择“文件名”框中的文件夹图标，浏览到相应的文件夹，然后选择包含你的数据的电子表格。
-   
+
     ![选择电子表格](includes/media/new-step/select-spreadsheet.png)
 4. 从“表名”列表中选择包含你的数据的表。
-   
+
     ![选择表](includes/media/new-step/select-table.png)
 
 ### <a name="check-the-status-column-of-each-row"></a>查看每一行的状态列
 1. 选择“新建步骤” > “更多” > “向每个都添加一个应用”。
-   
+
     ![选择表](includes/media/new-step/apply-to-each.png)
 2. 向“从先前的步骤中选择一个输出”框添加“值”令牌。
-   
+
     ![选择表](includes/media/apply-to-each/add-value-token.png)
 3. 选择“添加条件” > “在高级模式下编辑”。
 4. 添加以下 or 表达式。 此 or 表达式检查表中每个行的值（在表达式中访问时，行称为项）。 如果“状态”列的值为“已完成”或“不必要”，则 or 表达式的求值结果为“true”。
-   
+
     or 表达式如下所示：
-   
+
     ````@or(equals(item()?['status'], 'unnecessary'), equals(item()?['status'], 'completed'))````
-   
+
     “条件”卡如下图所示：
-   
+
     ![or 表达式图像](./media/use-expressions-in-conditions/or-expression.png)
 
 ### <a name="delete-matching-rows-from-the-spreadsheet"></a>从电子表格中删除匹配的行
 1. 选择该条件的“如果是，则不执行任何操作”分支上的“添加操作”。
 2. 搜索“删除行”，然后选择“Excel - 删除行”。
-   
+
     ![删除行图像](includes/media/new-step/select-delete-excel-row.png)
 3. 在“文件名”框中搜索并选择包含要删除数据的电子表格文件。
 4. 从“表名”列表中选择包含你的数据的表。
 5. 将“行 ID”令牌置于“行 ID”框中。
-   
+
     ![电子表格文件](includes/media/new-step/delete-excel-row.png)
 
 ### <a name="name-the-flow-and-save-it"></a>命名流并将其保存
 1. 给流命名，然后选择“创建流”按钮。
-   
+
     ![保存流](./media/use-expressions-in-conditions/name-and-save.png)
 
 ### <a name="run-the-flow-with-the-or-expression"></a>使用 or 表达式运行流
@@ -201,10 +201,11 @@ ms.lasthandoff: 11/03/2017
 
 请将 and 表达式和 less 表达式配合使用，因为有两个条件需要验证：
 
-| 要验证的条件 | 要使用的表达式 | 示例 |
-| --- | --- | --- |
-| 是否已全额支付到期的款项？ |greater |@greater(item()?['Due'], item()?['Paid']) |
-| 是否离到期日期只有不到一天的时间？ |less |@less(item()?['DueDate'], addDays(utcNow(),1)) |
+
+|          要验证的条件          | 要使用的表达式 |                    示例                     |
+|-----------------------------------------|-------------------|------------------------------------------------|
+|   是否已全额支付到期的款项？    |      greater      |   @greater(item()?['Due'], item()?['Paid'])    |
+| 是否离到期日期只有不到一天的时间？ |       less        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
 
 ## <a name="combine-the-greater-and-less-expressions-in-an-and-expression"></a>在 and 表达式中将 greater 和 less 表达式组合到一起
 使用 greater 表达式来确定尚未全额支付欠款的员工，使用 less 表达式来确定当前日期离应允支付的日期是否不到一天。 然后即可执行“发送电子邮件”操作，向那些尚未全额支付且离应允支付日期不到一天的人员发送善意的提醒邮件。

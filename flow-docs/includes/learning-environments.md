@@ -2,6 +2,7 @@
 环境是一种虚拟空间，用来在 Common Data Service 中存储、管理和共享应用、流以及业务数据。 环境按地理位置定位，因此环境的数据库中存储的所有应用和数据也都按地理位置定位。  
 
 ## <a name="terms-you-should-get-familiar-with"></a>应熟悉的术语
+
 | **术语** | **说明** |
 | --- | --- |
 | **管理中心** |管理中心是一个 [Web 门户](https://admin.flow.microsoft.com)，用于管理你的所有环境和数据丢失防护策略。 |

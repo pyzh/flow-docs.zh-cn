@@ -1,13 +1,13 @@
 ---
-title: "限制和配置 | Microsoft Docs"
-description: "限制和配置"
-services: 
+title: 限制和配置 | Microsoft Docs
+description: 限制和配置
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: ee1ab187a4c5404ad0f0dd81d1894ddc8b1014b8
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow 中的限制和配置
 本主题介绍流的当前限制和配置详细信息。
@@ -28,17 +28,20 @@ ms.lasthandoff: 02/05/2018
 这些是单个传出请求的限制。
 
 ### <a name="timeout"></a>超时
+
 | 名称 | 限制 |
 | --- | --- |
 | 请求超时 |120 秒 |
 
 ### <a name="message-size"></a>消息大小
+
 | 名称 | 限制 | 说明 |
 | --- | --- | --- |
 | 消息大小 |100 MB |并非所有 API 都支持整整 100 MB。 |
 | 表达式计算限制 |131072 个字符 |`@concat()`、`@base64()`、`string` 不能超过此限制。 |
 
 ### <a name="retry-policy"></a>重试策略
+
 | 名称 | 限制 |
 | --- | --- |
 | 重试尝试次数 |4 |

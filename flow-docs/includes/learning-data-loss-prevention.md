@@ -1,6 +1,7 @@
 随着可用于通过 [Microsoft Flow](https://flow.microsoft.com) 构建工作流的[服务](https://flow.microsoft.com/services)越来越多，你可能需要保护企业服务（例如 SharePoint 或 Salesforce）中存储的敏感业务数据或关键业务数据。 你可能会发现你的组织需要创建策略，以确保敏感业务数据不会发布到 Twitter 和 Facebook 等使用者服务。 使用 Microsoft Flow，可以轻松创建**数据丢失防护** (DLP) 策略，以便严格控制在用户创建流时可与哪些使用者服务共享你的业务数据。  
 
 ## <a name="terms-you-should-get-familiar-with"></a>应熟悉的术语
+
 | 术语 | 说明 |
 | --- | --- |
 | **DLP** |这是“数据丢失防护”的缩写。 你将创建 DLP 策略以管理在**服务**之间共享数据。 |

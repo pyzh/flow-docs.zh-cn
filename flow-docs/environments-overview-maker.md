@@ -1,13 +1,13 @@
 ---
-title: "了解 Microsoft Flow 环境 | Microsoft Docs"
-description: "了解如何使用环境来隔离流"
-services: 
+title: 了解 Microsoft Flow 环境 | Microsoft Docs
+description: 了解如何使用环境来隔离流
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: e6667c1c1999c36177d40d52fa657edadd063516
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choosing-an-environment"></a>选择环境
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 01/03/2018
 创建流之前，请选择要将流及其资源添加到的环境。
 
 > [!NOTE]
-如果在错误的环境中创建了流，则需要将其删除，然后在正确的环境中创建。
+> 如果在错误的环境中创建了流，则需要将其删除，然后在正确的环境中创建。
 
 选择用于托管流的环境时，请考虑以下因素：
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 01/03/2018
 * 将会显示可在其中编辑资源的所有环境。 但是，需要请求管理员将你作为创建者添加到要在其中创建流的所有环境。
 
 > [!NOTE]
-始终可以在默认环境中创建流。
+> 始终可以在默认环境中创建流。
 
 ## <a name="next-steps"></a>后续步骤
 
