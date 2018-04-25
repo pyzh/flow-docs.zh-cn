@@ -54,7 +54,7 @@
 12. 选择“ApprovalStatus”，然后将值设置为“是”，然后选择“ApproverComments”，并将值设置为动态内容列表中的“评论”。 
     
      ![状态和评论](./media/learning-approval-center/approver-status.png)
-13. 在“如果否，*则不执行任何操作*”框中，选择“添加操作”。
+13. 在“如果否，则不执行任何操作”框的底部，选择“添加操作”。
     
      ![添加操作](./media/learning-approval-center/add-a-no-action.png)
 14. 使用曾用于“如果是”配置的相同步骤，创建“SharePoint - 更新项”操作，除将“ApprovalStatus”设置为“否”以外，使用相同的值配置字段。 

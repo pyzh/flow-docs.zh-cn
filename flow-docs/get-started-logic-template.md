@@ -1,13 +1,13 @@
 ---
-title: "通过模板创建流 | Microsoft Docs"
-description: "从多个内置模板中的任一个创建流"
-services: 
+title: 通过模板创建流 | Microsoft Docs
+description: 从多个内置模板中的任一个创建流
+services: ''
 suite: flow
 documentationcenter: na
 author: aftowen
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: 876723b62274f3a306c0a8472095b131e223408b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>在 Microsoft Flow 中通过模板创建流
 通过多个内置模板中的任一个创建一个具有特定用途的流，例如，该流在用户的经理在 Office 365 中向用户发送电子邮件时，可以向用户发送 Slack 消息。
@@ -54,7 +54,7 @@ ms.lasthandoff: 10/15/2017
 1. 选择事件的标题栏将其展开，然后对其进行自定义（例如，可以指定一个筛选器，筛选出自己感兴趣的电子邮件）。
 2. 需要从用户获得输入的操作会自动展开。
    
-    例如，“发布消息”操作会展开，因为你需要输入一个通道，例如 @username。 也可以自定义消息内容。 默认情况下，消息将只包含主题，但也可包含其他信息。
+    例如，“发布消息”操作会展开，因为用户需要输入一个通道，如 \@username。 也可以自定义消息内容。 默认情况下，消息将只包含主题，但也可包含其他信息。
    
     ![为 Slack 指定通道](./media/get-started-logic-template/specify-keyword.png)
 3. 在屏幕顶部附近，为流指定名称，然后选择“创建流”。

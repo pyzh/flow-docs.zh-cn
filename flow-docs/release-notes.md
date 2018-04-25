@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/12/2018
+ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
-ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
+ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -44,6 +44,39 @@ ms.lasthandoff: 03/23/2018
 3. 向所选文件夹中的嵌套文件夹添加文件时，不会触发文件触发器。
 
 ## <a name="whats-new"></a>新增功能
+
+### <a name="release-2018-04-12"></a>2018 年 4 月 12 日版
+
+- **将数据从流返回到 PowerApps** - 生成可从使用 PowerApps 生成的应用中调用的流，并将数据返回到应用。 使用可视化拖放流设计器生成应用所需的逻辑。 
+- **将多条记录添加到数组输入** - 例如，将列表生成器添加到了 Microsoft Flow，可用于将多个附件添加到电子邮件。
+- **使用先前运行的数据来测试流** - 在设计器中添加了一个新的“测试流”按钮，以便用户可以使用之前流运行的触发器数据来测试流。
+- **新的 workflow() 字段** - 现可使用 workflow() 表达式访问环境名称和流显示名称。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/return-data-to-powerapps/)有关此版本的问题。
+
+### <a name="release-2018-04-04"></a>2018 年 4 月 4 日版
+
+- **Common Data Service 的审批** - 新式审批构建在应用的 Common Data Service 最新版本之上。 这意味着你可生成能够读取使用 CDS 连接器发送或接收的审批状态的流。
+- **查找应用到每项的错误** - 即使循环中有数百个项，也可在流运行视图中直接跳转到循环错误。
+- **重新分配审批** - 可将收到的任何审批分配给组织中的其他人，从而将审批委托给他们。 
+- **会议室列表** - Office 365 Outlook 连接器添加了用于获取组织会议室数据的操作。
+- **查看流按钮的详细信息** - 运行他人共享给你的流时，现可看到流使用的所有操作。
+- **英国区域** - 现可创建环境，将其数据存储在英国。
+- **两个新连接器** - 增加了对 AtBot Admin 和 Marketing Content Hub 的支持。
+- **新的文档登陆页面** - 更新了文档登陆页面，便于将内容按用户身份分组：初学者、中级用户或专家。 
+
+[阅读更多并询问](https://flow.microsoft.com/blog/approvals-in-cds-and-seven-updates/)有关此版本的问题。
+
+### <a name="release-2018-03-13"></a>2018 年 3 月 13 日版
+
+- **审批历史记录** - 查看发送的所有审批请求，包括回复、发送的评论以及发生的确切时间。
+- **四个新连接器** - 添加了 Excel Online（商业版）、Excel Online (OneDrive)、Azure SQL 数据仓库和 Pitney Bowes 税款计算器。
+- **动态内容工具提示** - 将鼠标悬停在动态内容上，可查看其动作内容的来源，并在不完全打开表达式编辑器的情况下预览表达式。
+- **并发控制** - 启用并发控制，使给定流一次只能运行一个。
+- **指数重试** - 一种新型的重试策略，使重试间隔随时间推移而呈指数级增长。
+- **辅助功能一致性** - 发布了新的一致性文档，介绍 Microsoft Flow 如何满足辅助功能标准。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/approval-history-accessibility/)有关此版本的问题。
 
 ### <a name="release-2018-02-09"></a>2018 年 2 月 9 日版
 

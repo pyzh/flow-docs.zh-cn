@@ -1,13 +1,13 @@
 ---
-title: "筛选并复制数据 | Microsoft Docs"
-description: "了解如何使用 Microsoft Flow 将数据从源筛选并复制到目标"
-services: 
+title: 筛选并复制数据 | Microsoft Docs
+description: 了解如何使用 Microsoft Flow 将数据从源筛选并复制到目标
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>使用 Microsoft Flow 筛选和复制数据
 本演练介绍如何创建一个流，用于监视源中新建或更改的项，然后将这些更改复制到目标。 如果用户在一个位置输入数据，但团队需要在另一个位置或以另一种格式获得该数据，则可以创建此类流。
@@ -106,7 +106,7 @@ ms.lasthandoff: 02/15/2018
     ![配置条件](media/odata-filters/configure-condition.png)
 5. 选择“在高级模式中进行编辑”。
    
-    当高级模式打开时，可在框中看到 **@equals(body('Get_rows')?['value'], 0)** 表达式。 通过围绕 **body('Get_items')?['value']** 函数添加 **length()** 来编辑此表达式。 整个表达式现在显示如下：**@equals(length(body('Get_rows')?['value']), 0)**
+    高级模式打开时，你可在框中看到 \@equals(body('Get_rows')?['value'], 0) 表达式。 通过围绕 **body('Get_items')?['value']** 函数添加 **length()** 来编辑此表达式。 整个表达式现在显示如下：**@equals(length(body('Get_rows')?['value']), 0)**
    
     “条件”卡现在类似于下图：
    
