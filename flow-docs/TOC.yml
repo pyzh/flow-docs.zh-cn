@@ -54,6 +54,8 @@
       href: all-assigned-must-approve.md
     - name: 集成审批
       href: common-data-model-approve.md
+    - name: 格式批准请求
+      href: approvals-markdown-support.md
 - name: 使用移动应用
   items:
     - name: 创建流
@@ -110,6 +112,16 @@
       href: prevent-data-loss.md
     - name: 数据组简介
       href: introduction-to-data-groups.md
+- name: 响应 DSR 请求
+  items:
+    - name: 摘要
+      href: gdpr-dsr-summary.md
+    - name: 发现请求
+      href: gdpr-dsr-discovery.md
+    - name: 导出请求
+      href: gdpr-dsr-export.md
+    - name: 删除请求
+      href: gdpr-dsr-delete.md
 - name: 参考
   items:
     - name: 区域概述
