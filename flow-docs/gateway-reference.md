@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
+manager: KFile
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
-ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
+ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>了解适用于 Microsoft Flow 的本地数据网关
 将本地数据网关与 Microsoft Flow 配合使用，以便安全地连接到本地数据源，例如 Microsoft SQL Server。
@@ -114,7 +114,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 如果需要详细了解所有情况，可将 **ComputerName** 值和 **Port** 值替换为本主题后面“配置端口”下列出的那些值。
 
-防火墙可能还会阻止 Azure 服务总线发出的到 Azure 数据中心的连接。 如果是这种情况，则需将所在区域的这些数据中心的所有 [IP 地址](https://www.microsoft.com/download/details.aspx?id=41653)列入允许列表即取消阻止）。
+防火墙可能还会阻止 Azure 服务总线发出的到 Azure 数据中心的连接。 如果是这种情况，则需将所在区域的这些数据中心的所有 [IP 地址](https://www.microsoft.com/download/details.aspx?id=41653)列入白名单（即取消阻止）。
 
 ## <a name="configure-ports"></a>配置端口
 网关可创建到 Azure 服务总线的出站连接。 网关使用以下出站端口进行通信：TCP 443（默认）、5671、5672、9350 至 9354。 网关不需要入站端口。
@@ -141,6 +141,10 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 本地数据网关配置为使用 NT SERVICE\PBIEgwService 作为 Windows 服务登录凭据。 默认情况下，它有权作为服务登录。 这位于正在安装网关的计算机的上下文中。
 
 这不是用于连接到本地数据源的帐户，也不是登录到云服务的工作或学校帐户。
+
+## <a name="tenant-level-administration"></a>租户级别管理
+
+目前还没有一个单独位置可供租户管理员管理其他用户已安装和配置的所有网关。  如果你是租户管理员，我们建议你让组织中的用户将你添加为他们所安装的每个网关的管理员。 这将允许你通过网关设置页或通过 [PowerShell 命令](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)管理组织中的所有网关。
 
 ## <a name="frequently-asked-questions"></a>常见问题
 ### <a name="general-questions"></a>常规问题
