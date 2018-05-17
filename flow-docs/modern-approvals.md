@@ -1,13 +1,13 @@
 ---
-title: "轻松地自动执行审批工作流。 | Microsoft Docs"
-description: "自动执行与 SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk 或 WordPress 集成的审批工作流。"
-services: 
+title: 轻松地自动执行审批工作流。 | Microsoft Docs
+description: 自动执行与 SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk 或 WordPress 集成的审批工作流。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,13 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
-ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+ms.openlocfilehash: bd89bca994a77072815a73ba1cbc7ba1db6955d3
+ms.sourcegitcommit: e52f04b5953240d71d726c0e3373740cc59292dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>通过 Microsoft Flow 创建和测试审批工作流
+
 使用 Microsoft Flow 可以跨多个服务管理文档或流程的审批，这些服务包括：SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk 或 WordPress。
 
 若要创建审批工作流，请向任意流添加“审批 - 启动审批”操作。 添加此操作后，即可通过流来管理文档或流程的审批。 例如，可以创建文档审批流来审批发票、工作订单或销售报价单。 还可以创建流程审批流来审批休假请求、加班或旅行计划。
@@ -49,12 +50,13 @@ ms.lasthandoff: 02/27/2018
 
    ![SharePoint Online 列表列](./media/modern-approvals/sharepoint-list-fields.png)
 
-请记下 SharePoint Online 列表的名称和 URL。 稍后在配置“SharePoint - 当创建新项时”触发器时，你将需要这些项。
+请记下 SharePoint Online 列表的名称和 URL。 稍后在配置“SharePoint - 当创建项时”触发器时，将需使用这些项。
 
 ## <a name="create-your-flow-from-the-blank-template"></a>从空白模板创建流
 [!INCLUDE [sign-in-and-create-flow-from-blank-template](includes/sign-in-and-create-flow-from-blank-template.md)]
 
 ## <a name="add-a-trigger"></a>添加触发器
+
 [!INCLUDE [add-trigger-when-sharepoint-item-created](includes/add-trigger-when-sharepoint-item-created.md)]
 
 “站点地址”和“列表名称”是你在本演练中的前面部分记下的项。
@@ -62,6 +64,7 @@ ms.lasthandoff: 02/27/2018
 ![Sharepoint 信息](./media/modern-approvals/select-sharepoint-site-info.png)
 
 ## <a name="add-a-profile-action"></a>添加“配置文件”操作
+
 1. 选择“新建步骤”，然后选择“添加操作”。
    
     ![新建步骤](./media/modern-approvals/select-sharepoint-add-action.png)
@@ -76,14 +79,20 @@ ms.lasthandoff: 02/27/2018
     ![保存流](./media/modern-approvals/save.png)
 
 ## <a name="add-an-approval-action"></a>添加“审批”操作
+
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
-注意：此操作会将审批请求发送到“分配到”框中的电子邮件地址。
+> [!NOTE]
+> 此操作会将审批请求发送至“分配到”框中的电子邮件地址。
+>
+>
 
 ## <a name="add-a-condition"></a>添加条件
+
 [!INCLUDE [add-approval-condition-response](includes/add-approval-condition-response.md)]
 
 ## <a name="add-an-email-action-for-approvals"></a>添加电子邮件操作以用于审批
+
 如果休假请求已经被批准，请按照下列步骤发送一封电子邮件：
 
 [!INCLUDE [add-action-to-send-email-when-vacation-approved](includes/add-action-to-send-email-when-vacation-approved.md)]
@@ -91,21 +100,30 @@ ms.lasthandoff: 02/27/2018
    ![配置已批准的电子邮件模板](./media/sequential-modern-approvals/yes-email-config.png)
 
 ## <a name="add-an-update-action-for-approved-requests"></a>添加用于已批准请求的更新操作
+
 [!INCLUDE [add-action-to-update-sharepoint-with-approval](includes/add-action-to-update-sharepoint-with-approval.md)]
 
-注意：“站点地址”、“列表名称”、“ID”和“标题”是必填的。
+> [!NOTE]
+> “站点地址”、“列表名称”、“ID”和“标题”是必填项。
+>
+>
 
 ![更新项目配置](./media/modern-approvals/configure-update-item.png)
 
 ## <a name="add-an-email-action-for-rejections"></a>添加电子邮件操作以用于拒绝
+
 [!INCLUDE [add-action-to-send-email-when-vacation-rejected](includes/add-action-to-send-email-when-vacation-rejected.md)]
 
 ![已拒绝的请求的配置](./media/modern-approvals/configure-rejected-email.png)
 
 ## <a name="add-update-action-for-rejected-requests"></a>添加用于已拒绝请求的更新操作
+
 [!INCLUDE [add-action-to-update-sharepoint-with-rejection](includes/add-action-to-update-sharepoint-with-rejection.md)]
 
-   注意：“站点地址”、“列表名称”、“ID”和“标题”是必填的。
+   > [!NOTE]
+   > “站点地址”、“列表名称”、“ID”和“标题”是必填项。
+   >
+   >
 
 ![更新项目卡](./media/modern-approvals/configure-update-item-no.png)
 
@@ -120,11 +138,13 @@ ms.lasthandoff: 02/27/2018
 既然已创建了流，现在就要对其进行测试了！
 
 ## <a name="request-an-approval"></a>请求批准
+
 [!INCLUDE [request-vacation-approval](includes/request-vacation-approval.md)]
 
 创建并测试流以后，请务必让他人知道如何使用该流。
 
 ## <a name="learn-more"></a>了解详情
+
 * 查看和管理[待审批请求](approve-reject-requests.md)
 * 创建[顺序审批流](sequential-modern-approvals.md)。
 * 创建[并行审批流](parallel-modern-approvals.md)。

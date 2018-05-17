@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
+ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -44,6 +44,14 @@ ms.lasthandoff: 04/16/2018
 3. 向所选文件夹中的嵌套文件夹添加文件时，不会触发文件触发器。
 
 ## <a name="whats-new"></a>新增功能
+
+### <a name="release-2014-05-01"></a>2014 年 5 月 1 日版
+
+- **审批消息中的格式文本** - 通过 Markdown 将发送的审批详细信息进行格式化。
+- **具有多个选项输入的按钮** - 生成使用多选列表一次收集多个值的流按钮。
+- **使用范围更宽的流** - Microsoft Flow 移动应用现支持横向视图，且 Web 设计器有一个水平滚动条。
+
+[阅读更多并询问](https://flow.microsoft.com/blog/rich-approvals-text-and-multiselect/)有关此版本的问题。
 
 ### <a name="release-2018-04-12"></a>2018 年 4 月 12 日版
 
