@@ -8,3 +8,5 @@
    
     ![从空白创建](media/modern-approvals/blank-template.png)
 
+4. 选择“从零开始创建”按钮。
+
