@@ -1,13 +1,13 @@
 ---
-title: "通过手机监视活动 | Microsoft Docs"
-description: "查看每个流的成功/失败次数、每个运行的发生时间，以及所耗费的时间"
-services: 
+title: 通过手机监视活动 | Microsoft Docs
+description: 查看每个流的成功/失败次数、每个运行的发生时间，以及所耗费的时间
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>通过手机监视 Microsoft Flow 中的活动
 查看汇总情况，了解每个流在今天、昨天以及过去日子里的成功/失败次数。 了解每个运行的详细信息，例如运行时间、每步所花的时间，以及失败情况下的原因。
@@ -41,7 +41,7 @@ ms.lasthandoff: 10/15/2017
 
 ![发送推送通知](./media/mobile-monitor-activity/create-event.png)
 
-**注意：**也可通过移动应用[管理流](mobile-manage-flows.md)。
+**注意：** 也可通过移动应用[管理流](mobile-manage-flows.md)。
 
 ## <a name="display-a-summary-of-activity"></a>显示活动摘要
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nVCGJamOw6s?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>

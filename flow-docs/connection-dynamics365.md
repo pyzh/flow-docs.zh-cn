@@ -1,13 +1,13 @@
 ---
-title: "使用 Dynamics 365（联机）创建流 | Microsoft Docs"
-description: "通过使用 Dynamics 365 连接和 Microsoft Flow 创建有用的工作流"
-services: 
+title: 使用 Dynamics 365（联机）创建流 | Microsoft Docs
+description: 通过使用 Dynamics 365 连接和 Microsoft Flow 创建有用的工作流
+services: ''
 suite: flow
 documentationcenter: na
 author: Mattp123
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 5ef3de417b1557644ce9bfcd935353e017ceb676
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>通过使用 Dynamics 365（联机）创建流
 通过使用 Dynamics 365 连接器可以创建流，这些流在 Dynamics 365 或其他某个服务中的事件发生时启动，然后将在 Dynamics 365 或其他某个服务中执行某项操作。 
@@ -73,7 +73,7 @@ ms.lasthandoff: 10/15/2017
 12. 单击或点击“创建流”。
 
 ## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>从 Dynamics 365 任务创建 Wunderlist 任务
-本演练演示了如何每当在 Dynamics 365 中创建任务时在 [Wunderlist](http://www.wunderlist.com) 中创建任务。 Wunderlist 是一种基于 Internet 的服务，可用于创建待办事项列表、添加提醒或跟踪事项。
+本演练演示了如何每当在 Dynamics 365 中创建任务时在 [Wunderlist](https://www.wunderlist.com) 中创建任务。 Wunderlist 是一种基于 Internet 的服务，可用于创建待办事项列表、添加提醒或跟踪事项。
 
 1. 登录到 [Microsoft Flow 网站](https://flow.microsoft.com/)。
 2. 单击或点击“我的流”，然后单击或点击“从空白创建”。
@@ -129,7 +129,7 @@ ms.lasthandoff: 10/15/2017
 
   ![流 recordId 和类型用户](./media/connection-dynamics365/flow-recordid-user.png)
 
-若要查找记录的 ID，请参阅本主题中后面的[查找记录 ID](#find-the-record-id)。
+若要查找记录的 ID，请参阅本主题中后面的[查找记录 ID](#find-the-records-id)。
 
 > 重要说明：如果字段有“仅限内部使用”的说明，则这些字段不应包含值。 这些字段包括“遍历的路径”、“其他参数”和“时区规则版本号”。
 > 

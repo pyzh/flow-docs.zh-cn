@@ -1,13 +1,13 @@
 ---
-title: "添加高级选项和多个操作 | Microsoft Docs"
-description: "扩展一个流，使之包括高级选项（例如将电子邮件的优先级设置为高），并为同一事件添加其他操作。"
-services: 
+title: 添加高级选项和多个操作 | Microsoft Docs
+description: 扩展一个流，使之包括高级选项（例如将电子邮件的优先级设置为高），并为同一事件添加其他操作。
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
 ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>向流添加多个操作和高级选项
 为同一触发器添加一个或多个高级选项和多个操作，对流进行自定义。 例如，添加一个将电子邮件按高优先级发送的高级选项。 除了在向 SharePoint 列表添加项目时发送邮件以外，还可以在 Dropbox 中创建一个包含相同信息的文件。
@@ -70,7 +70,7 @@ ms.lasthandoff: 10/15/2017
   
     ![删除菜单](./media/multi-step-logic-flow/deletemenu.png)
   
-     **注意：**如果在流中的任何位置使用某个操作的任何输出，则不能删除该操作。 请先删除字段中的这些输出，然后即可删除该操作。
+     **注意：** 如果在流中的任何位置使用某个操作的任何输出，则不能删除该操作。 请先删除字段中的这些输出，然后即可删除该操作。
 
 ## <a name="add-advanced-options"></a>添加高级选项
 开始时请使用包含“发送电子邮件”操作的流。

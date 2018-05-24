@@ -1,13 +1,13 @@
 ---
-title: "了解如何使用带有用户输入的按钮流自动执行重复任务 | Microsoft Docs"
-description: "利用 Microsoft Flow 可以轻松地自动执行重复任务。 运行重复任务时，流甚至可以带有用户输入。"
-services: 
+title: 了解如何使用带有用户输入的按钮流自动执行重复任务 | Microsoft Docs
+description: 利用 Microsoft Flow 可以轻松地自动执行重复任务。 运行重复任务时，流甚至可以带有用户输入。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73feb90b3907ee8a7a192f16bc29c5893d0be4bb
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
+ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="introducing-button-flows-with-user-input"></a>带有用户输入的按钮流简介
 创建按钮流能够仅仅点击一个按钮即可运行日常任务。 通过允许用户提供要在流运行时使用的特定详细信息，来自定义你的流。 本主题将指导你完成创建一个用于获取用户输入的按钮流，然后运行该按钮流，并突出显示如何提供用户输入。
@@ -116,7 +116,7 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="next-steps"></a>后续步骤
 * [共享按钮流](share-buttons.md)
-* [了解流](guided-learning/learning-introducing-flow.md)  
+* [了解流](guided-learning/get-started.yml?tutorial-step=1)  
 * [了解按钮流](introduction-to-button-flows.md)  
 * [了解带有触发器令牌的按钮流](introduction-to-button-trigger-tokens.md)  
 
