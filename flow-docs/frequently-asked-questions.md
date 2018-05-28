@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
-ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
+ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="frequently-asked-questions"></a>常见问题
 ## <a name="audience-and-strategy"></a>受众和策略
@@ -131,3 +131,7 @@ Microsoft Flow 是 SharePoint Designer 的接替版本，适合许多常见业�
 ### <a name="what-pricing-plans-do-you-offer"></a>提供哪些定价计划？
 Microsoft Flow 提供免费和付费服务级别。 [详细了解定价](billing-questions.md)。
 
+## <a name="learn-more"></a>了解详情
+
+* 开启 Microsoft Flow [引导学习之旅](guided-learning/index.yml)
+* 通过[入门指南](getting-started.md)了解 Microsoft Flow 的基础知识

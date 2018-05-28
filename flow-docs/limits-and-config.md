@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 9b2447ce0a7c9bc353e47ee1edb4bea55f2c49f4
+ms.sourcegitcommit: f9be24c533003146d75e5a7fa6e40356d4ce47d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow 中的限制和配置
 本主题介绍流的当前限制和配置详细信息。
@@ -31,7 +31,8 @@ ms.lasthandoff: 04/26/2018
 
 | 名称 | 限制 |
 | --- | --- |
-| 请求超时 |120 秒 |
+| 同步调用请求超时 |120 秒 |
+| 异步调用请求超时|可配置。 最长为 30 天。 |
 
 ### <a name="message-size"></a>消息大小
 
@@ -55,6 +56,7 @@ ms.lasthandoff: 04/26/2018
 | 存储保留期 |30 天 |这是从运行开始时间算起。 |
 | 最小重复间隔 |1 分钟 | |
 | 最大重复间隔 |500 天 | |
+| 运行历史记录最长保留期 |28 天（按照 GDPR 规则）。 | |
 
 ## <a name="looping-and-debatching-limits"></a>循环和拆分限制
 这些是单个流运行的限制。

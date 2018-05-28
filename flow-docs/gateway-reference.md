@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>了解适用于 Microsoft Flow 的本地数据网关
 将本地数据网关与 Microsoft Flow 配合使用，以便安全地连接到本地数据源，例如 Microsoft SQL Server。
@@ -184,7 +184,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 **问：** 网关 Windows 服务能否通过 Azure Active Directory 帐户运行？
 **答：** 否。 Windows 服务必须使用有效的 Windows 帐户。 默认情况下，它将通过服务 SID *NT SERVICE\PBIEgwService* 运行。
 
-**问：** 如何将结果发送到云？
+问：如何将结果发送到云？
 答：结果使用 Azure 服务总线发送。 有关详细信息，请参阅[工作原理](gateway-reference.md#how-the-gateway-works)。
 
 **问：** 凭据存储在哪里？
@@ -192,7 +192,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 ### <a name="high-availabilitydisaster-recovery"></a>高可用性/灾难恢复
 **问：** 是否有任何通过网关启用高可用性方案的计划？
-**答：** 此计划仍在筹备之中，尚无日程表。
+**答：** 有，[现已推出](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each)高可用性。
 
 **问：** 进行灾难恢复时，可以使用哪些选项？
 **答：** 可以使用恢复密钥还原或移动网关。

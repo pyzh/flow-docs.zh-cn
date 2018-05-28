@@ -1,13 +1,13 @@
 ---
-title: "在移动设备上审批请求 | Microsoft Docs"
-description: "使用移动设备审批在 Microsoft Flow 中创建的请求。"
-services: 
+title: 在移动设备上审批请求 | Microsoft Docs
+description: 使用移动设备审批在 Microsoft Flow 中创建的请求。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: 18546c044dc823d703544c48f5cda76a3581e99f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>在移动设备上使用 Microsoft Flow 审批请求
 如果某个流将你标识为审批者，并且你已安装用于 Microsoft Flow 的移动应用，则每当系统请求你进行审批时，你就会收到推送通知。
@@ -52,7 +52,7 @@ ms.lasthandoff: 10/15/2017
 如果没有任何待审批请求，请创建一个[审批流](modern-approvals.md)，将自己设置为审批者，然后触发该流。 在该流触发并发送待审批请求后数秒钟，审批请求就会出现在审批中心。
 
 ## <a name="approve-requests-and-leave-an-optional-comment"></a>审批请求并根据需要留下注释
-1. 按照上述步骤[显示所有待审批请求](mobile-approvals.md#view-pending-approval-requests)（如果尚未这样做）。
+1. 如果尚未这样做，请按照上述步骤[查看挂起的请求](mobile-approvals.md#view-pending-requests)。
 2. 在要批准的请求上选择“批准”。
    
     ![选择“批准”](./media/mobile-approvals/select-approve.png)
