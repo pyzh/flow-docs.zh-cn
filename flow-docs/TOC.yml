@@ -122,6 +122,18 @@
       href: gdpr-dsr-export.md
     - name: 删除请求
       href: gdpr-dsr-delete.md
+- name: Microsoft 帐户的 DSR 请求
+  items:
+    - name: 摘要
+      href: gdpr-dsr-summary-msa.md
+    - name: 发现请求
+      href: gdpr-dsr-discovery-msa.md
+    - name: 导出请求
+      href: gdpr-dsr-export-msa.md
+    - name: 删除请求
+      href: gdpr-dsr-delete-msa.md
+    - name: 关闭请求
+      href: gdpr-dsr-accountclose-msa.md
 - name: 参考
   items:
     - name: 区域概述

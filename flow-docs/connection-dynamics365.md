@@ -15,16 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
+ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/01/2018
+ms.locfileid: "34689367"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>通过使用 Dynamics 365（联机）创建流
 通过使用 Dynamics 365 连接器可以创建流，这些流在 Dynamics 365 或其他某个服务中的事件发生时启动，然后将在 Dynamics 365 或其他某个服务中执行某项操作。 
 
 在 Microsoft Flow 中，可以在最喜欢的应用和服务之间设置自动化工作流，以便同步文件、获取通知、收集数据等。 有关详细信息，请参阅 [Microsoft Flow 入门](getting-started.md)。
+
+> [!IMPORTANT] 
+> 若要调用流触发器，与流一起使用的 Dynamics 365 客户参与实体必须启用“更改跟踪”。 详细信息：[启用更改跟踪以控制数据同步](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
 
 ## <a name="create-a-flow-from-a-template"></a>通过模板创建流
 可以使用许多可用模板之一来创建流，示例如下：
