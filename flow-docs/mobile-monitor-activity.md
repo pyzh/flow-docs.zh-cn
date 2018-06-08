@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440147"
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>通过手机监视 Microsoft Flow 中的活动
 查看汇总情况，了解每个流在今天、昨天以及过去日子里的成功/失败次数。 了解每个运行的详细信息，例如运行时间、每步所花的时间，以及失败情况下的原因。

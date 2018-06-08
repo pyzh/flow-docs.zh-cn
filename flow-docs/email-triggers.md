@@ -1,13 +1,13 @@
 ---
-title: "基于电子邮件属性运行流。 | Microsoft Docs"
-description: "基于电子邮件的主题、发件人地址或收件人等属性启动流。"
-services: 
+title: 基于电子邮件属性运行流。 | Microsoft Docs
+description: 基于电子邮件的主题、发件人地址或收件人等属性启动流。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 395cb9bc1d58e50e5ac8ebac9afaed544f3261ec
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440003"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>基于电子邮件属性触发流
 使用“收到新电子邮件时”触发器来创建一个流，该流在一个或多个电子邮件属性匹配所提供的条件时运行：

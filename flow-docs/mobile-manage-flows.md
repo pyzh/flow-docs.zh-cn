@@ -1,13 +1,13 @@
 ---
-title: "通过手机管理流 | Microsoft Docs"
-description: "查看流的列表、启用或禁用流，以及查看每个流的事件、操作和运行历史记录"
-services: 
+title: 通过手机管理流 | Microsoft Docs
+description: 查看流的列表、启用或禁用流，以及查看每个流的事件、操作和运行历史记录
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: 4a04fec70ae70ff17ddf6e1f93e6461ec432e8d2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440093"
 ---
 # <a name="manage-flows-in-microsoft-flow-from-your-phone"></a>通过手机管理 Microsoft Flow 中的流
 查看包含所有已创建流的列表、查看每个流的事件和操作、启用或禁用流，以及浏览其运行历史记录。

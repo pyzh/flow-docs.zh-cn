@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/09/2018
 ms.author: deonhe
 ms.openlocfilehash: 43b748332a649e5f8d8db5fbe11f53522ce8bb79
-ms.sourcegitcommit: e52f04b5953240d71d726c0e3373740cc59292dc
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34051377"
 ---
 # <a name="create-parallel-approval-workflows-with-microsoft-flow"></a>使用 Microsoft Flow 创建并行审批工作流
 
@@ -80,7 +81,7 @@ ms.lasthandoff: 05/11/2018
 4. 选择“添加操作”。
 
     ![获取管理器配置](./media/parallel-modern-approvals/add-parallel-branch.png)
-5. 搜索、选择然后配置“开始审批”操作，将休假请求发送到销售团队。 如果不确定如何添加“开始审批”操作，请参阅[用于添加直属经理审批操作的步骤](parallel-modern-approvals.md#add-an-approval-action-for-immediate-manager)。
+5. 搜索、选择然后配置“启动审批”操作，将休假请求发送到销售团队。 如果不确定如何添加“启动审批”操作，请参阅[用于添加直属经理审批操作的步骤](parallel-modern-approvals.md#add-an-approval-action-for-immediate-manager)。
 
 > [!IMPORTANT]
 > 使用“开始审批 2”操作的“分配到”框中的销售团队电子邮件地址。
@@ -135,7 +136,7 @@ ms.lasthandoff: 05/11/2018
    > 此条件从“启动审批”操作检查传递给员工经理的响应。
    > 
    > 
-8. 在“开始审批 2”（对销售团队的审批请求）和“开始审批 3”（对人力资源的审批请求）分支上重复上述步骤。
+8. 在“启动审批 2”（对销售团队的审批请求）和“启动审批 3”（对人力资源的审批请求）分支上重复上述步骤。
 
 ## <a name="add-email-actions-to-each-branch"></a>向每个分支添加电子邮件操作
 
@@ -149,7 +150,7 @@ ms.lasthandoff: 05/11/2018
 
 若要在请求被拒时发送电子邮件，请使用“条件”分支的“如果否”侧，然后重复上述步骤以添加拒绝电子邮件模板。
 
-在“开始审批 2”（对销售团队的审批请求）和“开始审批 3”（对人力资源的审批请求）分支上重复上述步骤。
+在“启动审批 2”（对销售团队的审批请求）和“启动审批 3”（对人力资源的审批请求）分支上重复上述步骤。
 
 ## <a name="update-the-vacation-request-with-the-decision"></a>根据决策更新休假请求
 
@@ -161,7 +162,7 @@ ms.lasthandoff: 05/11/2018
 
    ![更新项目配置](./media/parallel-modern-approvals/configure-update-item.png)
 
-在“开始审批 2”和“开始审批 3”分支上重复上述步骤。
+在“启动审批 2”和“启动审批 3”分支上重复上述步骤。
 
 ## <a name="complete-the-flow"></a>完成流
 

@@ -1,13 +1,13 @@
 ---
-title: "使用 Common Data Service 生成审批循环 | Microsoft Docs"
-description: "创建可以一起使用的实体、流和应用，以便审阅者批准或拒绝添加到 Dropbox 的文件。"
-services: 
+title: 使用 Common Data Service 生成审批循环 | Microsoft Docs
+description: 创建可以一起使用的实体、流和应用，以便审阅者批准或拒绝添加到 Dropbox 的文件。
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
 ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351331"
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>使用 Microsoft Flow 和 Microsoft 通用数据服务生成审批循环
 用户可以使用通用数据服务生成流，将信息存储在独立于流的数据库中。 此方面的最佳示例是审批。 如果将审批状态存储在实体中，则可在其基础上使用流。

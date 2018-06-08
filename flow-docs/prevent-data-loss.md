@@ -1,13 +1,13 @@
 ---
-title: "数据丢失防护 (DLP) 策略简介。 | Microsoft Docs"
-description: "Microsoft Flow 的数据丢失防护策略简介。"
-services: 
+title: 数据丢失防护 (DLP) 策略简介。 | Microsoft Docs
+description: Microsoft Flow 的数据丢失防护策略简介。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/28/2018
 ms.author: deonhe
 ms.openlocfilehash: 7dbf6296383551d82d22682121210f1cd339b65e
-ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29563079"
 ---
 # <a name="data-loss-prevention-dlp-policies"></a>数据丢失防护 (DLP) 策略
 
@@ -95,7 +96,7 @@ ms.lasthandoff: 02/27/2018
 
     ![DLP 列表](./media/prevent-data-loss/create-policy-9.png)
 
-1. **（可选）**向团队发送一封电子邮件或其他通讯，提醒他们有新的 DLP 策略可用。
+1. **（可选）** 向团队发送一封电子邮件或其他通讯，提醒他们有新的 DLP 策略可用。
 
 祝贺你，你现已创建一个允许应用在 SharePoint 与 Salesforce 之间共享数据，并阻止与其他任何服务共享数据的 DLP 策略。
 

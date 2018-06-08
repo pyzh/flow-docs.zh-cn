@@ -1,13 +1,13 @@
 ---
-title: "通过创建流来自动执行任务 | Microsoft Docs"
-description: "创建一个流，在出现像某人向 SharePoint 列表添加行的事件时，该流可以自动执行一个或多个操作，例如发送电子邮件。"
-services: 
+title: 通过创建流来自动执行任务 | Microsoft Docs
+description: 创建一个流，在出现像某人向 SharePoint 列表添加行的事件时，该流可以自动执行一个或多个操作，例如发送电子邮件。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/28/2018
 ms.author: deonhe
 ms.openlocfilehash: 911be014dd6f57a80be7c65d87cb2d5d475c88e1
-ms.sourcegitcommit: 2dcb94f85c0029f920329c861b6a0f1f8972c191
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29716269"
 ---
 # <a name="create-a-flow-in-microsoft-flow"></a>在 Microsoft Flow 中创建流
 

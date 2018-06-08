@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
 ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34453253"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>了解适用于 Microsoft Flow 的本地数据网关
 将本地数据网关与 Microsoft Flow 配合使用，以便安全地连接到本地数据源，例如 Microsoft SQL Server。
@@ -135,7 +136,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 如果需要将 IP 地址而不是域列入允许列表，可下载并使用 [Microsoft Azure 数据中心 IP 范围列表](https://www.microsoft.com/download/details.aspx?id=41653)。 在某些情况下，Azure 服务总线连接将使用 IP 地址而不是完全限定域名来进行。
 
 ## <a name="sign-in-account"></a>登录帐户
-用户将使用工作或学校帐户登录。 这是组织帐户。 如果已注册 Office 365 产品/服务，但未提供工作电子邮件，帐户可能会如下所示：nancy@contoso.onmicrosoft.com。用户在云服务中的帐户存储于 Azure Active Directory (AAD) 中的租户内。 在大多数情况下，AAD 帐户的 UPN 将与电子邮件地址匹配。
+用户将使用工作或学校帐户登录。 这是组织帐户。 如果已注册 Office 365 产品/服务，但未提供工作电子邮件，帐户可能会如下所示：nancy@contoso.onmicrosoft.com。 用户在云服务中的帐户存储于 Azure Active Directory (AAD) 中的租户内。 在大多数情况下，AAD 帐户的 UPN 将与电子邮件地址匹配。
 
 ## <a name="windows-service-account"></a>Windows 服务帐户
 本地数据网关配置为使用 NT SERVICE\PBIEgwService 作为 Windows 服务登录凭据。 默认情况下，它有权作为服务登录。 这位于正在安装网关的计算机的上下文中。

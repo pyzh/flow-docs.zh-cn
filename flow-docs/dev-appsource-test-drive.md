@@ -1,13 +1,13 @@
 ---
-title: "让客户在 AppSource 上体验你的流 | Microsoft Docs"
-description: "通过 AppSource 与客户共享应用，为企业带来潜在客户。"
-services: 
+title: 让客户在 AppSource 上体验你的流 | Microsoft Docs
+description: 通过 AppSource 与客户共享应用，为企业带来潜在客户。
+services: ''
 suite: flow
 documentationcenter: na
 author: linhtranms
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/09/2017
 ms.author: litran
 ms.openlocfilehash: 41d53a6f7382365dfcabbc98a2fa362d465720fa
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439643"
 ---
 # <a name="let-customers-test-drive-your-flows-on-appsource"></a>让客户在 AppSource 上体验你的流
 是否需要展示一下你的应用是如何集成 Microsoft Flow 的？ 我们目前在 [AppSource.com](https://appsource.microsoft.com) 上测试各种解决方案，你可以通过这种方式与客户共享 Microsoft Flow 集成，为企业带来潜在客户。
@@ -34,5 +35,5 @@ ms.lasthandoff: 10/15/2017
 有了数据源并可向用户授予该数据源的只读访问权限以后，即可将 Microsoft Flow 嵌入应用程序中。 [在此处阅读有关嵌入的详细内容](embed-flow-dev.md)。 你可能希望使用搜索功能，将专用于应用程序的模板突出显示出来。 例如，如果应用程序在 Dynamics 365 中创建数据，则可突出显示能够拉取数据并向用户发送电子邮件的 Dynamics 365 模板。 
 
 ## <a name="how-do-i-list-my-test-drive-solution-on-appsourcecom"></a>如何在 AppSource.com 上列出我的体验版解决方案？
-应用就绪以后，即可将其发布到 AppSource.com。若要启动该过程，请完成 flow.microsoft.com 上的[申请表](https://flow.microsoft.com/partners/get-listed/)。申请以后，你会收到一封电子邮件，其中包含如何提交应用的说明，指导你将其发布到 AppSource.com。
+应用就绪以后，即可将其发布到 AppSource.com。 若要启动该过程，请完成 flow.microsoft.com 上的[申请表](https://flow.microsoft.com/partners/get-listed/)。 申请以后，你会收到一封电子邮件，其中包含如何提交应用的说明，指导你将其发布到 AppSource.com。
 

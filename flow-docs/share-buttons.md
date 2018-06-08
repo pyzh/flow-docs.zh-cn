@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442253"
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>在 Microsoft Flow 中共享按钮流
 在 Microsoft Flow 移动应用中，可与组织内的其他用户或组共享[按钮流](introduction-to-button-flows.md)（按钮）。 共享某个按钮时，与之共享的个人或组可以运行该按钮，就像其运行自己的按钮一样。 还可以[共享链接](share-buttons.md#re-share-a-button)，该链接指向其他人与你共享的按钮。 可以随时[停止共享](share-buttons.md#stop-sharing-a-button)按钮。

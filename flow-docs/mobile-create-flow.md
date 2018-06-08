@@ -1,13 +1,13 @@
 ---
-title: "通过手机创建流 | Microsoft Docs"
-description: "从模板创建一个具有特定用途的流，例如，收到指定地址发出的邮件时，通过系统发送一个推送通知"
-services: 
+title: 通过手机创建流 | Microsoft Docs
+description: 从模板创建一个具有特定用途的流，例如，收到指定地址发出的邮件时，通过系统发送一个推送通知
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/18/2016
 ms.author: adiregev
 ms.openlocfilehash: 27a2001e3fa154f9354ef5ad888e194f30b3d6ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440291"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>使用 Microsoft Flow 通过手机创建流
 在手机中通过模板创建流，而模板则可通过搜索服务列表、浏览各种类别或指定关键字来查找。 按本主题所述步骤创建一个流，在收到经理的邮件后向手机发送推送通知。

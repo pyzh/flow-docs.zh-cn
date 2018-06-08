@@ -1,13 +1,13 @@
 ---
-title: "使用 bttn 启动流 | Microsoft Docs"
-description: "了解如何使用 bttn 启动流"
-services: 
+title: 使用 bttn 启动流 | Microsoft Docs
+description: 了解如何使用 bttn 启动流
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/30/2017
 ms.author: deonhe
 ms.openlocfilehash: c4010f95ad2db3c4f3b97b39f0b45934c7b69c48
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440309"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>使用 The Button Corporation（预览）中的物理按钮 (bttn) 来运行流
 通过按 bttn（[The Button Corporation](https://my.bt.tn/) 生产的物理按钮）来触发流。 例如，可以按 bttn 触发一个流来执行以下任务：

@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31008061"
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>使用 Microsoft Flow 筛选和复制数据
 本演练介绍如何创建一个流，用于监视源中新建或更改的项，然后将这些更改复制到目标。 如果用户在一个位置输入数据，但团队需要在另一个位置或以另一种格式获得该数据，则可以创建此类流。

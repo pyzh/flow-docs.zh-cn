@@ -1,13 +1,13 @@
 ---
 title: Common Data Service | Microsoft Docs
-description: "创建一个流，以通过通用数据服务导入数据、导出数据或生成审批。"
-services: 
+description: 创建一个流，以通过通用数据服务导入数据、导出数据或生成审批。
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
 ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351295"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>创建使用通用数据服务的流
 创建使用[通用数据服务](https://powerapps.microsoft.com/tutorials/data-platform-intro/)的流，通过统一的视图查看业务数据，提高运营效率。 将这个安全的业务数据库部署到组织中，该数据库包含各种格式正确的标准业务实体（例如“销售”、“购买”、“客户服务”和“工作效率”）。 将组织数据存储在一个或多个[自定义实体](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)中，后者相对于外部数据源（例如 Microsoft Excel 和 Salesforce）具有多项优势。

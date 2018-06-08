@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
 ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442109"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>向流添加多个操作和高级选项
 为同一触发器添加一个或多个高级选项和多个操作，对流进行自定义。 例如，添加一个将电子邮件按高优先级发送的高级选项。 除了在向 SharePoint 列表添加项目时发送邮件以外，还可以在 Dropbox 中创建一个包含相同信息的文件。

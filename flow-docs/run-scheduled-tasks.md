@@ -1,13 +1,13 @@
 ---
-title: "按计划运行流 | Microsoft Docs"
-description: "按计划运行流，例如每天运行一次流，或者每小时运行一次流，自动执行重复的任务。"
-services: 
+title: 按计划运行流 | Microsoft Docs
+description: 按计划运行流，例如每天运行一次流，或者每小时运行一次流，自动执行重复的任务。
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/14/2017
 ms.author: stepsic
 ms.openlocfilehash: eaeaf62da694daf7f8e6d876c3d225337fdbe592
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23981242"
 ---
 # <a name="run-flows-on-a-schedule"></a>按计划运行流
 创建一个流，使之执行一个或多个符合以下条件的任务（例如在电子邮件中发送报表）：

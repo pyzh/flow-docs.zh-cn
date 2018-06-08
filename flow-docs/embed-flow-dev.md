@@ -1,13 +1,13 @@
 ---
-title: "将 Microsoft Flow 与网站和应用集成 | Microsoft Docs"
-description: "将 Microsoft Flow 体验嵌入网站或应用中。"
-services: 
+title: 将 Microsoft Flow 与网站和应用集成 | Microsoft Docs
+description: 将 Microsoft Flow 体验嵌入网站或应用中。
+services: ''
 suite: flow
 documentationcenter: na
 author: bbarath
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: barathb
-ms.openlocfilehash: 12664286a9e7d88fb5e24607d600b42f95398cee
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: af03ee70b09ba5ee1164a9a7ea5019b13c19eec6
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440039"
 ---
 # <a name="integrate-microsoft-flow-with-websites-and-apps"></a>将 Microsoft Flow 与网站和应用集成
 将 Microsoft Flow 直接嵌入应用或网站中，方便用户自动完成其个人任务或专业任务。
@@ -33,7 +34,7 @@ ms.lasthandoff: 10/15/2017
 ## <a name="show-templates-for-your-scenarios"></a>显示适合用户方案的模板
 开始时请添加以下代码，直接在网站中显示流模板：
 
-```
+```html
 <iframe src="https://flow.microsoft.com/{locale}/widgets/templates/?q={search term}
 &pagesize={number of templates}&destination={destination}"></iframe>
 ```
@@ -59,7 +60,7 @@ ms.lasthandoff: 10/15/2017
 ### <a name="full-sample"></a>完整示例
 若要以德语形式显示有关 Wunderlist 的四大模板并通过 **myCoolList** 启动用户，请执行以下操作：
 
-```
+```html
 <iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=wunderlist
 &pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
 ```
@@ -75,20 +76,20 @@ ms.lasthandoff: 10/15/2017
 ### <a name="include-the-javascript-for-the-authenticated-sdk"></a>包括 JavaScript，适用于经过身份验证的 SDK
 遵照此示例在 HTML 代码中包括 SDK。 也可下载、缩小 SDK 并将其与产品打包在一起。
 
-```
+```javascript
 <script src="https://flow.microsoft.com/content/msflowsdk-1.1.js" async defer></script>
 ```
 
 ### <a name="create-a-container-to-contain-the-view"></a>创建一个用于容纳视图的容器
 添加 HTML div：
 
-```
+```html
 <div id="flowDiv" class="flowContainer"></div>
 ```
 
 建议对此容器进行样式化处理，使之在使用时显示适当的维度：
 
-```
+```html
 <head>
     <style>
         .flowContainer iframe {
@@ -106,7 +107,7 @@ ms.lasthandoff: 10/15/2017
 ### <a name="authentication-against-the-sdk"></a>针对 SDK 进行身份验证
 若要列出用户已创作的流并通过模板创建流，请提供源自 AAD 的 authToken。
 
-```
+```javascript
 <script>
     window.msFlowSdkLoaded = function() {
         var sdk = new MsFlowSdk({
@@ -132,7 +133,7 @@ ms.lasthandoff: 10/15/2017
 
 若要查找 `environmentId`，可以进行下述 API 调用，以便返回可供用户访问的环境的列表：
 
-```
+```http
 GET https://management.azure.com/providers/Microsoft.ProcessSimple/environments
 ?api-version=2016-11-01 
 ```
@@ -141,7 +142,7 @@ GET https://management.azure.com/providers/Microsoft.ProcessSimple/environments
 
 在此示例中，`requestParam` 定义为：
 
-```
+```javascript
 export interface IRpcRequestParam {
     callInfo: IRpcCallInfo,
     data?: any;
@@ -150,7 +151,7 @@ export interface IRpcRequestParam {
 
 接下来需要注意的是，`widgetDoneCallback` 是一个回调函数，需在主机获得令牌后进行调用。 这样做是因为获得令牌可能是一个异步过程。 调用此函数时需传入的参数为 `(errorResult: any, successResult: any)`。 successResult 将取决于回调类型。 `GetAccessToken` 的类型为：
 
-```
+```javascript
 export interface IGetAccessTokenResult {
     token: string;
 }

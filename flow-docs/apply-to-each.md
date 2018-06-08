@@ -1,13 +1,13 @@
 ---
-title: "使用“应用到每个”操作可循环访问一系列的项目。 | Microsoft Docs"
-description: "使用 Microsoft Flow 可循环访问一系列的项目，以检查多个条件并根据这些条件执行操作。"
-services: 
+title: 使用“应用到每个”操作可循环访问一系列的项目。 | Microsoft Docs
+description: 使用 Microsoft Flow 可循环访问一系列的项目，以检查多个条件并根据这些条件执行操作。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
 ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440453"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>使用 Microsoft Flow 中的“应用到每个操作”可定期处理一系列的项目
 许多触发器可以基于某个事件（例如，当新的电子邮件到达收件箱中时）立即启动流。 这些触发器很好，但有时你想要运行某个流以便按照预定义计划查询数据源，根据数据源中项目的属性执行某些操作。 为此，可以按照计划（如每日一次）启动流，并且使用循环操作（如“应用到每个”）处理一系列的项目。 例如，可以使用“应用到每个”来更新数据库中的记录或 Microsoft SharePoint 中的一系列项目。

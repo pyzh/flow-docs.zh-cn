@@ -1,13 +1,13 @@
 ---
-title: "通过 Flic 按钮启动流 | Microsoft Docs"
-description: "通过 Flic by Shortcut Labs 提供的物理按钮轻松启动按钮流。"
-services: 
+title: 通过 Flic 按钮启动流 | Microsoft Docs
+description: 通过 Flic by Shortcut Labs 提供的物理按钮轻松启动按钮流。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/19/2017
 ms.author: deonhe
 ms.openlocfilehash: 518834103c1a17ef2f5af218eae43ccab4e5fda2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440831"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>通过按 Flic 智能按钮（预览版）运行流
 通过按 Shortcut Labs 提供的名为 Flic 的物理按钮来触发流。 例如，可以通过按 Flic 来跟踪工作时间、阻止日历、对某个事件的访问者计数，或者保存地理位置。

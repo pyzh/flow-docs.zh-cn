@@ -1,13 +1,13 @@
 ---
-title: "了解如何使用连接和本地数据网关连接到数据 | Microsoft Docs"
-description: "添加或管理与 SharePoint、SQL Server、OneDrive for Business、Salesforce、Office 365、OneDrive、Dropbox、Twitter、Google Drive 等产品的连接"
-services: 
+title: 了解如何使用连接和本地数据网关连接到数据 | Microsoft Docs
+description: 添加或管理与 SharePoint、SQL Server、OneDrive for Business、Salesforce、Office 365、OneDrive、Dropbox、Twitter、Google Drive 等产品的连接
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/15/2017
 ms.author: stepsic
 ms.openlocfilehash: c0e115732e26bdeb0d7e4c3c60e1aa6c63e0ffc1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439769"
 ---
 # <a name="manage-connections-in-microsoft-flow"></a>管理 Microsoft Flow 中的连接
 如果在 Microsoft Flow 中创建连接，可以在生成流时轻松访问数据。 Microsoft Flow 包含常用连接，其中包括 SharePoint、SQL Server、Office 365、OneDrive for Business、Salesforce、Excel、Dropbox、Twitter 等。 连接与 PowerApps 共享，因此，在一个产品中创建连接时，连接会显示在另一个产品中。
@@ -91,7 +92,7 @@ ms.lasthandoff: 10/15/2017
 ## <a name="troubleshoot-a-connection"></a>排查连接问题
 根据组织的策略，可能需要使用相同的帐户登录到 Microsoft Flow 并创建与 SharePoint、Office 365 或 OneDrive for Business 的连接。
 
-例如，你可能会使用 *yourname@outlook.com* 登录到 Microsoft Flow，但在尝试使用 *yourname@contoso.com* 连接到 SharePoint 时被阻止。可以改为使用 *yourname@contoso.com* 登录到 Microsoft Flow，然后你将能够连接到 SharePoint。
+例如，你可能会使用 *yourname@outlook.com* 登录到 Microsoft Flow，但在尝试使用 *yourname@contoso.com* 连接到 SharePoint 时被阻止。 可以改为使用 *yourname@contoso.com* 登录到 Microsoft Flow，然后你将能够连接到 SharePoint。
 
 <!--Reference links in article-->
 [1]: https://flow.microsoft.com

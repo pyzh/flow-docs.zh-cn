@@ -1,12 +1,12 @@
 ### YamlMime:Tutorial
-title: "处理审批"
+title: 处理审批
 metadata:
-  title: "处理审批 | Microsoft Flow"
-  description: "了解如何在 Microsoft Flow 中管理文档和过程的审批。"
+  title: 处理审批 | Microsoft Flow
+  description: 了解如何在 Microsoft Flow 中管理文档和过程的审批。
   audience: Business User
   level: Beginner
   nextTutorialHref: administer-flows
-  nextTutorialTitle: "管理流"
+  nextTutorialTitle: 管理流
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -15,25 +15,27 @@ metadata:
   ms.date: 02/22/2018
   ms.author: deonhe
   ms.openlocfilehash: b3b77f073464ae15eaf3ca49ce6664ed5d03cfe8
-  ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+  ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/27/2018
+  ms.lasthandoff: 06/04/2018
+  ms.locfileid: "29563013"
 items:
 - durationInMinutes: 1
-  content: "了解如何在 Microsoft Flow 中管理文档和过程的审批。\n"
-- title: "创建审批申请"
+  content: >
+    了解如何在 Microsoft Flow 中管理文档和过程的审批。
+- title: 创建审批申请
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
 
 
     [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
-- title: "处理审批请求"
+- title: 处理审批请求
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
 
 
     [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
-- content: "已完成 Microsoft Flow 引导式学习的“处理审批”部分。\0"
+- content: 已完成 Microsoft Flow 引导式学习的“处理审批”部分。

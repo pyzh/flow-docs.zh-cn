@@ -1,13 +1,13 @@
 ---
-title: "创建要求每个人都批准的审批流程 | Microsoft Docs"
-description: "创建一个必需所有人批准或者一个人即可拒绝整个申请的审批流。"
-services: 
+title: 创建要求每个人都批准的审批流程 | Microsoft Docs
+description: 创建一个必需所有人批准或者一个人即可拒绝整个申请的审批流。
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/27/2018
 ms.author: deonhe
 ms.openlocfilehash: b7cf57ad343433f50a918e3a09710fbb1e3325de
-ms.sourcegitcommit: 79fc1e439640c6329bac884085eb66e71f63ab63
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29681288"
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>创建一个必需所有人批准的审批流
 
@@ -80,7 +81,7 @@ ms.lasthandoff: 02/28/2018
 
    | 字段 | 说明 |
    | --- | --- |
-   |  审批类型 |使用“已分配列表中的任何人”指示任意一个审批者都可以批准或拒绝该申请。 </p>使用**“已分配列表中的任何人”**指示申请仅在所有人都同意时才获得批准，只要有一人拒绝，便拒绝该申请。 |
+   |  审批类型 |使用“已分配列表中的任何人”指示任意一个审批者都可以批准或拒绝该申请。 </p>使用 **“已分配列表中的任何人”** 指示申请仅在所有人都同意时才获得批准，只要有一人拒绝，便拒绝该申请。 |
    |  标题 |审批申请的标题。 |
    |  分配到 |审批者的电子邮件地址。 |
    |  详细信息 |要发送给“分配到”字段中列出的审批者的任何其他信息。 |

@@ -1,13 +1,13 @@
 ---
-title: "提交流模板 | Microsoft Docs"
-description: "将流以模板形式提交，这样其他组织就可以在模板库中找到并使用你所创建的流。"
-services: 
+title: 提交流模板 | Microsoft Docs
+description: 将流以模板形式提交，这样其他组织就可以在模板库中找到并使用你所创建的流。
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/10/2017
 ms.author: sunayv
 ms.openlocfilehash: c265556631d19cb3c9179454bcf3b8a26e88651b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442037"
 ---
 # <a name="submit-a-template-to-the-microsoft-flow-gallery"></a>向 Microsoft Flow 库提交模板
 向 Microsoft Flow 的模板库提交流模板。 模板不仅方便用户创建流，而且有助于用户设计更多利用流的方案。 

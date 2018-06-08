@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
 ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
-ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34308708"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>带有用户输入的按钮流简介
 创建按钮流能够仅仅点击一个按钮即可运行日常任务。 通过允许用户提供要在流运行时使用的特定详细信息，来自定义你的流。 本主题将指导你完成创建一个用于获取用户输入的按钮流，然后运行该按钮流，并突出显示如何提供用户输入。

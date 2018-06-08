@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
 ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440183"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>在移动设备上使用 Microsoft Flow 审批请求
 如果某个流将你标识为审批者，并且你已安装用于 Microsoft Flow 的移动应用，则每当系统请求你进行审批时，你就会收到推送通知。

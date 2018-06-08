@@ -1,13 +1,13 @@
 ---
-title: "了解数据操作 | Microsoft Docs"
-description: "了解如何使用 Microsoft Flow 来执行操作，例如创建 HTML 表、创建 CSV 表，以及编辑、联接、选择和筛选数组。"
-services: 
+title: 了解数据操作 | Microsoft Docs
+description: 了解如何使用 Microsoft Flow 来执行操作，例如创建 HTML 表、创建 CSV 表，以及编辑、联接、选择和筛选数组。
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
 ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440903"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>在 Microsoft Flow 中使用数据操作
 本演练介绍 Microsoft Flow 的部分常用数据操作，例如编辑、联接、选择、筛选数组；创建表；分析 JSON。这些操作是在创建流时用来操作数据的。

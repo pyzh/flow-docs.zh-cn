@@ -1,13 +1,13 @@
 ---
-title: "适用于企业开发人员、ISV 和合作伙伴的 Microsoft Flow | Microsoft Docs"
-description: "开发 Microsoft Flow 解决方案简介。"
-services: 
+title: 适用于企业开发人员、ISV 和合作伙伴的 Microsoft Flow | Microsoft Docs
+description: 开发 Microsoft Flow 解决方案简介。
+services: ''
 suite: flow
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 01/31/2018
 ms.author: mblythe
 ms.openlocfilehash: d8886f0828ca3b8ccf7ae1ce9c46f6e9b8fcc766
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351277"
 ---
 # <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>适用于企业开发人员、ISV 和合作伙伴的 Microsoft Flow
 
