@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/17/2018
+ms.date: 4/24/2018
 ms.author: keweare
-ms.openlocfilehash: 1e1fe346ba6ffb264985da0115714246a621ef5a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 5b813bbd8ba9b4e5a778d9fa424704b61ed6dd31
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552056"
 ---
 # <a name="responding-to-gdpr-data-subject-export-requests-for-microsoft-flow"></a>响应 Microsoft Flow 的 GDPR 数据主体导出请求
 
@@ -39,16 +40,15 @@ Microsoft Flow 提供了以下查找或导出特定用户的个人数据的经�
 |-----------------|------------------|-------------------|
 |系统生成的日志|[Office 365 服务信任门户](https://servicetrust.microsoft.com/)|
 |运行历史记录|Microsoft Flow Maker 门户||
-|用户作业|| |
 |流|Microsoft Flow Maker 门户||
 |流权限| Microsoft Flow Maker 门户和 Microsoft Flow 管理中心||
-|用户详细信息|| |
-|连接|Microsoft Flow Maker 门户| |
-|连接权限|Microsoft Flow Maker 门户| |
-|自定义连接器|Microsoft Flow Maker 门户| |
-|自定义连接器权限|Microsoft Flow Maker 门户| |
-|网关|Microsoft Flow Maker 门户|本地网关 PowerShell cmdlet|
-|网关权限|Microsoft Flow Maker 门户|
+|用户详细信息||PowerApps cmdlet|
+|连接|Microsoft Flow Maker 门户|PowerApps cmdlet |
+|连接权限|Microsoft Flow Maker 门户|PowerApps cmdlet |
+|自定义连接器|Microsoft Flow Maker 门户|PowerApps cmdlet |
+|自定义连接器权限|Microsoft Flow Maker 门户|PowerApps cmdlet |
+|网关|Microsoft Flow Maker 门户|本地数据网关 PowerShell cmdlet|
+|网关权限|Microsoft Flow Maker 门户|本地数据网关 PowerShell cmdlet|
 
 ## <a name="export-a-flow"></a>导出流
 
@@ -105,10 +105,35 @@ Microsoft Flow 提供了以下查找或导出特定用户的个人数据的经�
     ![显示连接](./media/gdpr-dsr-export/show-connections.png)
 1. 复制结果，然后将其粘贴到文档编辑器（例如，Microsoft Word）中。
 
+PowerApps Admin PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connections for the user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnection -CreateBy $userId | ConvertTo-Json |Out-File -FilePath "UserConnections.txt"
+```
+
 ## <a name="export-a-list-of-a-users-connection-permissions"></a>导出用户的连接权限的列表
 
 用户可以导出他们有权访问的所有连接的连接角色分配，方法是通过调用 [PowerApps PowerShell cdmlets](https://go.microsoft.com/fwlink/?linkid=871804) 中的 Get-ConnectionRoleAssignment 函数。
-![导出连接权限](./media/gdpr-dsr-export/export-connection-permissions.png)
+
+```PowerShell
+Add-PowerAppsAccount
+Get-ConnectionRoleAssignment | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt"
+```
+PowerApps Admin PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connection permissions for the specified user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt" 
+```
 
 ## <a name="export-a-users-custom-connectors"></a>导出用户的自定义连接器
 
@@ -125,13 +150,41 @@ Microsoft Flow 提供了以下查找或导出特定用户的个人数据的经�
 
 除了 Microsoft Flow 中所提供的经验以外，还可以使用 [PowerApps PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804) 中的 Get-Connector 函数来导出所有自定义连接器。
 
-![导出自定义连接器 powershell](./media/gdpr-dsr-export/export-custom-connectors-powershell.png)
+~~~~
+Add-PowerAppsAccount
+Get-Connector -FilterNonCustomConnectors | ConvertTo-Json | Out-File -FilePath "CustomConnectors.txt"
+~~~~
+
+PowerApps Admin PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all custom connectors for user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnector -CreatedBy $userId | ConvertTo-Json | Out-File -FilePath "UserCustomConnectors.txt"  
+```
 
 ## <a name="export-a-users-custom-connector-permissions"></a>导出用户的自定义连接器权限
 
 用户可以导出他们所创建的所有自定义连接器权限，方法是使用 [PowerApps PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804) 中的 Get-ConnectorRoleAssignment 函数。
 
-![导出自定义连接器权限 powershell](./media/gdpr-dsr-export/export-connector-permissions.png)
+```PowerShell
+Add-PowerAppsAccount
+Get-ConnectorRoleAssignment | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"
+```
+
+PowerApps Admin PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connection permissions for the specified user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"   
+```
 
 ## <a name="export-approval-history"></a>导出审批历史记录
 
@@ -144,3 +197,18 @@ Microsoft Flow 审批历史记录会捕获已为用户接收或发送的审批�
 1. 出现一个列表，显示用户接收的审批。 用户可以显示他们发送的审批，方法是选择“接收”旁的向下箭头，然后选择“发送”。
 
     ![查看接收的审批](./media/gdpr-dsr-export/view-received-approvals.png)
+
+## <a name="export-user-details"></a>导出用户详细信息
+用户详细信息提供用户和特定租户之间的链接。 管理员可通过调用 Get-AdminFlowUserDetails cmdlet 并传入用户的对象 ID 来导出此信息。
+
+PowerApps Admin PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+Get-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
+```
+
+## <a name="export-gateway-settings"></a>导出网关设置
+有关如何响应针对本地数据网关的数据主体导出请求，请参阅[此处](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)。
+

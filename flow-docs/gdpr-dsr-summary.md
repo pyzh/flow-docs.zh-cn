@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/18/2018
+ms.date: 4/24/2018
 ms.author: keweare
-ms.openlocfilehash: 9f9513ca0239f72c36e96387fc010040936bbd02
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: c57296bed460dbf94aa597542413783292e1a8f7
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552159"
 ---
 # <a name="responding-to-gdpr-data-subject-requests-for-microsoft-flow"></a>响应 Microsoft Flow 的 GDPR 数据主体请求
 
@@ -42,6 +43,9 @@ ms.lasthandoff: 04/26/2018
     [试用许可证](http://web.powerapps.com/trial)在 30 天后过期。
 
 - [Office 365 全局管理员](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504)或 [Azure Active Directory 全局管理员](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)。
+
+### <a name="unmanaged-tenants"></a>非托管租户
+如果你是[非托管租户](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover)的成员（即你的 Azure AD 租户没有全局管理员），则仍将能够按照此文章中所述的步骤来导出和删除自己的个人数据。 
 
 ## <a name="responding-to-dsrs-for-microsoft-flow-customer-data"></a>响应 Microsoft Flow 客户数据的 DSR
 

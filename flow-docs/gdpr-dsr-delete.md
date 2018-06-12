@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: d750ee2bc672d08bff940341349663b4721f9a57
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561301"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>响应 Microsoft Flow 的 GDPR 数据主体删除请求
 
@@ -33,17 +34,17 @@ Microsoft Flow 允许用户生成自动化工作流，它是组织日常操作�
 |------|------|
 |环境*|系统生成的日志|
 |环境权限**|运行历史记录|
-|流|用户作业|
+|流|活动源|
 |流权限|网关 |
-|用户详细信息|网关权限 |
+|用户详细信息|网关权限|
 |连接*||
 |连接权限||
 |自定义连接器*||
 |自定义连接器权限||
 
-* 每个资源都包含带个人数据的“创建者”和“修改者”记录。 出于安全原因，将保留这些记录直至删除资源。
+*每个资源都包含带个人数据的“创建者”和“修改者”记录。 出于安全原因，将保留这些记录直至删除资源。
 
-* 对于包含 Common Data Service For Apps 数据库的环境，环境权限（例如，向用户分配的“环境创建者”和“管理员”角色）将存储为 Common Data Service 数据库中的记录。 有关如何对使用 Common Data Service 的用户的 DSR 进行响应的指导，请参阅[针对 Common Data Service 客户数据执行 DSR](https://go.microsoft.com/fwlink/?linkid=872251)。
+**对于包含 Common Data Service For Apps 数据库的环境，环境权限（例如，向用户分配的“环境创建者”和“管理员”角色）将存储为 Common Data Service 数据库中的记录。 有关如何对使用 Common Data Service 的用户的 DSR 进行响应的指导，请参阅[针对 Common Data Service 客户数据执行 DSR](https://go.microsoft.com/fwlink/?linkid=872251)。
 
 对于需要进行手动检查的数据和资源，Microsoft Flow 提供了以下经验，以便查找或更改特定用户的个人数据：
 
@@ -59,11 +60,11 @@ Microsoft Flow 允许用户生成自动化工作流，它是组织日常操作�
 |环境|Microsoft Flow 管理中心|PowerApps cmdlet||
 |环境权限*|Microsoft Flow 管理中心|PowerApps cmdlet||
 |运行历史记录||| 通过 28 天保留策略删除|
-|活动源 ||PowerApps cmdlet||
+|活动源 |||通过 28 天保留策略删除|
 |用户作业|| ||
 |流|Microsoft Flow Maker 门户**|||
 |流权限|Microsoft Flow Maker 门户|||
-|用户详细信息|| ||
+|用户详细信息||PowerApps cmdlet||
 |连接|Microsoft Flow Maker 门户| ||
 |连接权限|Microsoft Flow Maker 门户| ||
 |自定义连接器|Microsoft Flow Maker 门户| ||
@@ -76,7 +77,7 @@ Microsoft Flow 允许用户生成自动化工作流，它是组织日常操作�
 
 ## <a name="manage-delete-requests"></a>管理删除请求
 
-下面的步骤介绍了如何使用管理功能为 GDPR 的删除请求提供服务。
+下面的步骤介绍了如何使用管理功能为 GDPR 的删除请求提供服务。 应按下面所述的顺序执行这些步骤。
 
 > [!IMPORTANT]
 > 若要避免数据损坏，请按顺序执行这些步骤。
@@ -124,6 +125,7 @@ Microsoft Flow 允许用户生成自动化工作流，它是组织日常操作�
     ![确认删除流](./media/gdpr-dsr-delete/delete-flow-confirmation.png)
 
 1. 若要启用流副本，打开“我的流”，然后将“切换”控件切换为“启用”。
+
     ![启用流](./media/gdpr-dsr-delete/toggle-on.png)
 
 1. 副本现在将执行与原始版本相同的工作流逻辑。
@@ -142,6 +144,7 @@ Microsoft Flow 允许用户生成自动化工作流，它是组织日常操作�
 
 有关如何对使用 Common Data Service 的用户的 DSR 进行响应的其他指导，请参阅[针对 Common Data Service 客户数据执行 DSR](https://go.microsoft.com/fwlink/?linkid=872251)。
 
+
 ## <a name="delete-connections-created-by-a-user"></a>删除由用户创建的连接
 
 连接与连接器结合使用，用于建立与其他 API 和 SaaS 系统的连接。  连接包括对创建连接的用户的引用，因此可以将其删除以删除对用户的任何引用。
@@ -159,8 +162,14 @@ Get-Connection | Remove-Connection
 
 PowerApps Admin PowerShell cmdlet
 
-不可用。
+```PowerShell
+Add-PowerAppsAccount
 
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all connections for the DSR user and deletes them 
+Get-AdminConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection 
+
+```
 ## <a name="delete-the-users-permissions-to-shared-connections"></a>删除用户的共享连接权限
 
 PowerApps Maker PowerShell cmdlet
@@ -174,14 +183,20 @@ Add-PowerAppsAccount
 Get-ConnectionRoleAssignment | Remove-ConnectionRoleAssignment
 ```
 
+PowerApps Admin PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all shared connections for the DSR user and deletes their permissions 
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectionRoleAssignment  
+
+```
 > [!NOTE]
 > 不删除连接资源，就不能删除所有者角色分配。
 >
 >
-
-PowerApps Admin PowerShell cmdlet
-
-不可用。
 
 ## <a name="delete-custom-connectors-created-by-the-user"></a>删除用户创建的自定义连接器
 
@@ -199,8 +214,14 @@ Get-Connector -FilterNonCustomConnectors | Remove-Connector
 ```
 
 PowerApps Admin PowerShell cmdlet
+```PowerShell
+Add-PowerAppsAccount
 
-不可用。
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all custom connectors created by the DSR user and deletes them 
+Get-AdminConnector -CreatedBy $deleteDsrUserId | Remove-AdminConnector  
+
+```
 
 ## <a name="delete-the-users-permissions-to-shared-custom-connectors"></a>删除用户的共享自定义连接器权限
 
@@ -215,14 +236,21 @@ Add-PowerAppsAccount
 Get-ConnectorRoleAssignment | Remove-ConnectorRoleAssignment
 ```
 
+PowerApps Admin PowerShell cmdlet
+```PowerShell
+Add-PowerAppsAccount
+
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all custom connector role assignments for the DSR user and deletes them 
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectorRoleAssignment  
+
+```
+
 > [!NOTE]
 > 不删除连接资源，就不能删除所有者角色分配。
 >
 >
 
-PowerApps Admin PowerShell cmdlet
-
-不可用。
 
 ## <a name="delete-or-reassign-all-environments-created-by-the-user"></a>删除或重新分配由用户创建的所有环境
 
@@ -246,3 +274,43 @@ PowerApps Admin PowerShell cmdlet
 随着 Common Data Service for Apps 的引入，如果在环境中创建一个数据库，这些“角色分配”将作为记录存储在 Common Data Service for Apps 数据库实例中。
 
 有关在环境中删除用户权限的详细信息，请导航到[使用 Microsoft Flow 中的环境](https://docs.microsoft.com/flow/environments-overview-admin)。
+
+## <a name="delete-gateway-settings"></a>删除网关设置
+有关如何响应针对本地数据网关的数据主体删除请求，请参阅[此处](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)。
+
+## <a name="delete-user-details"></a>删除用户详细信息
+用户详细信息提供用户和特定租户之间的链接。 运行此命令前，请确保已重新分配和/或删除此用户的所有流。 完成此操作后，管理员可通过调用 Remove-AdminFlowUserDetails cmdlet 并传入用户的对象 ID 来删除用户详细信息。
+
+
+PowerApps Admin PowerShell cmdlet
+```PowerShell
+Add-PowerAppsAccount
+Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
+```
+
+> [!IMPORTANT]
+> 如果用户仍拥有个人或团队流，则此命令将返回一个错误。 若要解决此问题，请删除此用户的所有剩余流或团队流，然后再次运行命令。
+>
+>
+## <a name="delete-the-user-from-azure-active-directory"></a>从 Azure Active Directory 中删除用户
+完成上述步骤后，最后一步是按照 [Office 365 服务信任门户](https://servicetrust.microsoft.com/ViewPage/GDPRDSR)中提供的 Azure 数据主体请求 GDPR 文档中所述的步骤删除用户的 Azure Active Directory 帐户。
+
+## <a name="delete-the-user-from-unmanaged-tenant"></a>从非托管租户删除用户
+如果你是非托管租户的成员，则需要从[工作和学校隐私门户](https://go.microsoft.com/fwlink/?linkid=873123)执行“帐户关闭”操作。
+
+若要确定你是托管租户还是非托管租户的用户，请执行以下操作：
+1. 在浏览器中打开以下 URL，确保替换 URL 中的电子邮件地址：[ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1)。
+1. 如果你是“非托管租户”的成员，则将会在响应中看到 `"IsViral": true`。
+
+    {
+
+     "Login": "foobar@unmanagedcontoso.com",
+
+    "DomainName": "unmanagedcontoso.com",
+
+    "IsViral": **true**,
+    
+    }
+
+1. 否则，你就属于托管租户。
+

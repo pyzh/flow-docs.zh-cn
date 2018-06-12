@@ -1,13 +1,13 @@
 ---
-title: "组织中的 Flow 注册问答 | Microsoft Docs"
-description: "有关许可证、管理和用户以 Office 365 租户身份注册到 Microsoft Flow 的常见问题与解答"
-services: 
+title: 组织中的 Flow 注册问答 | Microsoft Docs
+description: 有关许可证、管理和用户以 Office 365 租户身份注册到 Microsoft Flow 的常见问题与解答
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
 ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
-ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442487"
 ---
 # <a name="flow-in-your-organization-qa"></a>用户组织中的 Microsoft Flow 问题与解答
 本主题介绍组织中的用户如何使用 Microsoft Flow，以及用户如何控制 Microsoft Flow 服务。
@@ -44,7 +45,7 @@ Microsoft Flow 是一种公有云服务，用于帮助个人和团队在其常�
 ### <a name="can-i-block-another-person-from-signing-up-for-flow"></a>我可以阻止其他人注册 Flow 吗？
 Microsoft Flow 是完全公有的云服务，世界上的任何人都可以注册并使用它来自动完成日常任务。 用户不需要拥有或者使用 Office 365 帐户即可使用 Microsoft Flow。 因此，目前没有任何机制阻止另一个人使用 Flow（因为世界上的任何人都可以使用 Flow，不管其电子邮件地址如何）。
 
-但是，如果某人注册 Microsoft Flow，并且你选择在你的组织内不支持他们，那么他们无法导致对你的公司收取费用。 当个人注册 Microsoft Flow 时，就会在该人与 Microsoft 之间建立一种关系，就像 Microsoft 推出的许多其他云服务（例如必应、Wunderlist、OneDrive 或 Outlook.com）一样。个人使用 Microsoft Flow 并不意味着该服务由你的组织提供。
+但是，如果某人注册 Microsoft Flow，并且你选择在你的组织内不支持他们，那么他们无法导致对你的公司收取费用。 当个人注册 Microsoft Flow 时，就会在该人与 Microsoft 之间建立一种关系，就像 Microsoft 推出的许多其他云服务（例如必应、Wunderlist、OneDrive 或 Outlook.com）一样。 个人使用 Microsoft Flow 并不意味着该服务由你的组织提供。
 
 最后，如果你的公司想要在 Microsoft Flow 内限制使用仅限组织使用的数据，则可通过数据丢失防护 (DLP) 策略来实现。
 

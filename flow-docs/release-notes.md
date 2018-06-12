@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/12/2018
+ms.date: 06/04/2018
 ms.author: stepsic
-ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
-ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
+ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
+ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755566"
 ---
 # <a name="release-notes"></a>发行说明
 ## <a name="top-questions"></a>最常见的问题
@@ -45,7 +46,17 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="whats-new"></a>新增功能
 
-### <a name="release-2014-05-01"></a>2014 年 5 月 1 日版
+### <a name="release-2018-05-21"></a>2018 年 5 月 21 日版
+
+- **SharePoint 列表和库拥有的流** - 与 SharePoint 列表和库协同工作的流可与这些列表或库共享。 因此，这些流可与具有该列表访问权限的任何人共享，而不是与个人或组共享。 在将用户添加到列表或库或将其从中删除时，这些用户的成员身份将自动进行相应更改。
+- **错误详细信息分析** - 提供有关流内所发生的所有错误的信息的新嵌入报表。
+- **与 Office 365 组共享流** - 可使 Office 365 新式组成为流所有者，并且可与 Office 365 组共享按钮流，以便组中的任何人都可以运行此流。
+- **SharePoint 连接器改进** - 存在两种新的 SharePoint 连接器功能：在删除项或文件时触发流，调用 SharePoint REST API 支持的任何 HTTP 终结点。
+- **两种新连接器** - 增加了对 Azure 数据工厂和 MailParser 的支持
+
+[阅读更多并询问](https://flow.microsoft.com/blog/share-with-sharepoint-office-365/)有关此版本的问题。
+
+### <a name="release-2018-05-01"></a>2018 年 5 月 1 日版
 
 - **审批消息中的格式文本** - 通过 Markdown 将发送的审批详细信息进行格式化。
 - **具有多个选项输入的按钮** - 生成使用多选列表一次收集多个值的流按钮。

@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
-ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
+ms.openlocfilehash: 2db995eafaf8e73af7cd29b8a2469d4abaab2356
+ms.sourcegitcommit: 7d04ee86361fe5d70ee89cde06d01754ada757b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2018
-ms.locfileid: "34689367"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799662"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>通过使用 Dynamics 365（联机）创建流
 通过使用 Dynamics 365 连接器可以创建流，这些流在 Dynamics 365 或其他某个服务中的事件发生时启动，然后将在 Dynamics 365 或其他某个服务中执行某项操作。 
@@ -91,6 +91,11 @@ ms.locfileid: "34689367"
 8. 在“列表 ID”下，选择“收件箱”。
 9. 在“标题”下，选择动态内容窗格中的“主题”。
 10. 单击或点击“创建流”。  
+
+## <a name="trigger-based-logic"></a>基于触发器的逻辑
+触发器（如“创建记录时”、“更新记录时”和“删除记录时”）会在事件发生几分钟后启动流。  在极少数情况下，流可能需要长达 2 小时才能触发。
+
+触发器触发时，流会收到一个通知，但流在操作运行时已存在的数据上运行。  例如，如果在创建新记录时流触发，并在流运行前更新此记录两次，则流仅通过最新数据运行一次。
 
 ## <a name="specify-advanced-options"></a>指定高级选项
 向流添加步骤时，可以单击或点击“显示高级选项”来添加筛选器或 Order By 查询，从而控制在流中筛选数据的方式。
