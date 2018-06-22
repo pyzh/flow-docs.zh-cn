@@ -20,6 +20,7 @@ ms.sourcegitcommit: 87934a195701e2ab33127ee084b9519e387db268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/03/2018
+ms.locfileid: "32323623"
 ---
 # <a name="use-markdown-in-microsoft-flow-approval-requests"></a>在 Microsoft Flow 审批请求中使用 Markdown
 
