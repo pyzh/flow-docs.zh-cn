@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
 ms.openlocfilehash: bd89bca994a77072815a73ba1cbc7ba1db6955d3
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34051400"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38949714"
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>通过 Microsoft Flow 创建和测试审批工作流
 

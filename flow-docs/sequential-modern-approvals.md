@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23442307"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38949532"
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>使用 Microsoft Flow 管理顺序审批
 有些工作流需要在最后审批者签署之前得到预先批准。 例如，一个公司可能有一个顺序审批策略，在得到财务部门批准之前，需要预先批准超过 1000.00 美元的发票。
