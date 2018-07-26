@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
+ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561301"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39175123"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>响应 Microsoft Flow 的 GDPR 数据主体删除请求
 
@@ -258,10 +258,10 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 
 1. 如果确定组织中没有其他人使用环境，可以选择删除环境
 1. 如果确定环境仍然是必需的，则可以选择不删除环境，并将自己（或组织中的其他用户）添加为“环境管理员”。
-    > [!IMPORTANT]
-    > 删除环境将永久删除环境中的所有资源，包括所有应用、流、连接等，因此，请在删除之前检查环境中的内容。
-    >
-    >
+> [!IMPORTANT]
+> 删除环境将永久删除环境中的所有资源，包括所有应用、流、连接等，因此，请在删除之前检查环境中的内容。
+>
+>
 
 ## <a name="give-access-to-a-users-environments-from-the-microsoft-flow-admin-center"></a>从 Microsoft Flow 管理中心授予对用户环境的访问权限
 
