@@ -73,7 +73,7 @@ Microsoft Flow 允许用户生成自动化工作流，它是组织日常操作�
 
 *随着 Common Data Service for Apps 的推出，如果在环境中创建一个数据库，环境权限和模型驱动应用权限将作为记录存储在 Common Data Service for Apps 数据库实例中。 有关如何对使用 Common Data Service 的用户的 DSR 进行响应的指导，请参阅[针对 Common Data Service 客户数据执行 DSR](https://go.microsoft.com/fwlink/?linkid=872251)。
 
-** 如果管理员已获得 Microsoft Flow 管理中心的访问权限，管理员将只能从 Microsoft Flow Maker 门户访问这些资源。
+\*\*如果管理员已获得 Microsoft Flow 管理中心的访问权限，管理员将只能从 Microsoft Flow Maker 门户访问这些资源。
 
 ## <a name="manage-delete-requests"></a>管理删除请求
 
